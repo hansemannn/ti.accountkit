@@ -1,0 +1,39 @@
+# ti.accountkit Module
+
+## Description
+
+TODO: Enter your module description here
+
+## Accessing the ti.accountkit Module
+
+To access this module from JavaScript, you would do the following:
+
+    var ti_accountkit = require("ti.accountkit");
+
+The ti_accountkit variable is a reference to the Module object.
+
+## Reference
+
+TODO: If your module has an API, you should document
+the reference here.
+
+### ti_accountkit.function
+
+TODO: This is an example of a module function.
+
+### ti_accountkit.property
+
+TODO: This is an example of a module property.
+
+## Usage
+
+TODO: Enter your usage example here
+
+## Author
+
+TODO: Enter your author name, email and other contact
+details you want to share here.
+
+## License
+
+TODO: Enter your license/legal information here.
