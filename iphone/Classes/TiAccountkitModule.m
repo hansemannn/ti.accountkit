@@ -161,7 +161,7 @@
 
 - (void)viewController:(UIViewController<AKFViewController> *)viewController didCompleteLoginWithAuthorizationCode:(NSString *)code state:(NSString *)state
 {
-    [self fireEvent:@"error" withObject:@{@"code":code, @"state":state}];
+    [self fireEvent:@"success" withObject:@{@"code":code, @"state":state}];
 }
 
 #pragma Utils
