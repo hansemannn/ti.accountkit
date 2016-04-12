@@ -4,7 +4,7 @@ Support for the Facebook AccountKit framework in Titanium Mobile to login using 
 
 > The used framework is in preview version 1.0.0 and still has some crashes occurring. Feel free to submit PR's if a new framework version is released by Facebook.
 
-<img src="http://abload.de/img/simulatorscreenshot12fbkk3.png" width="650" />
+<img src="http://abload.de/img/simulatorscreenshot1231k4v.png" width="650" />
 
 ## Usage
 
