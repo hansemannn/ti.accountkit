@@ -2,7 +2,9 @@
 
 Support for the Facebook AccountKit framework in Titanium Mobile to login using an email or phone number.
 
-> The used framework is in preiew version 1.0.0 and still has some crashes occurring. Feel free to submit PR's if a new framework version is released by Facebook.
+> The used framework is in preview version 1.0.0 and still has some crashes occurring. Feel free to submit PR's if a new framework version is released by Facebook.
+
+<img src="http://abload.de/img/simulatorscreenshot1231k4v.png" width="650" />
 
 ## Usage
 
@@ -39,8 +41,8 @@ accountkit.addEventListener("cancel", function(e) {
 });
 
 accountkit.addEventListener("error", function(e) {
-        Ti.API.warn("error");
-Ti.API.warn(e);
+    Ti.API.warn("error");
+    Ti.API.warn(e);
 });
 
 var btn1 = Ti.UI.createButton({
