@@ -1,8 +1,8 @@
 /**
  * ti.accountkit
  *
- * Created by Your Name
- * Copyright (c) 2016 Your Company. All rights reserved.
+ * Created by Hans Knoechel
+ * Copyright (c) 2016 Hans Knoechel. All rights reserved.
  */
 
 #import "TiAccountkitModule.h"
@@ -15,13 +15,11 @@
 
 #pragma mark Internal
 
-// this is generated for your module, please do not change it
 - (id)moduleGUID
 {
 	return @"43908d52-f013-4f83-917e-b3e8f89e5df5";
 }
 
-// this is generated for your module, please do not change it
 - (NSString*)moduleId
 {
 	return @"ti.accountkit";
@@ -31,21 +29,8 @@
 
 - (void)startup
 {
-	// this method is called when the module is first loaded
-	// you *must* call the superclass
 	[super startup];
-    
 	NSLog(@"[INFO] %@ loaded",self);
-}
-
-- (void)shutdown:(id)sender
-{
-	// this method is called when the module is being unloaded
-	// typically this is during shutdown. make sure you don't do too
-	// much processing here or the app will be quit forceably
-
-	// you *must* call the superclass
-	[super shutdown:sender];
 }
 
 #pragma mark Cleanup
@@ -53,22 +38,10 @@
 - (void)dealloc
 {
     RELEASE_TO_NIL(accountKit);
-    RELEASE_TO_NIL(pendingLoginViewController);
-
-    // release any resources that have been retained by the module
 	[super dealloc];
 }
 
-#pragma mark Internal Memory Management
-
-- (void)didReceiveMemoryWarning:(NSNotification*)notification
-{
-	// optionally release any resources that can be dynamically
-	// reloaded once memory is available - such as caches
-	[super didReceiveMemoryWarning:notification];
-}
-
-#pragma Public APIs
+#pragma mark Public APIs
 
 - (void)initialize:(id)args
 {
@@ -77,39 +50,40 @@
     if (accountKit == nil) {
         accountKit = [[AKFAccountKit alloc] initWithResponseType:NUMINT([args objectAtIndex:0])];
     }
-    
-    pendingLoginViewController = [accountKit viewControllerForLoginResume];
-    [pendingLoginViewController setDelegate:self];
-    [pendingLoginViewController setAdvancedUIManager:nil];
-    [pendingLoginViewController setTheme:nil];
 }
 
-- (void)loginWithPhone:(id)unused
+- (void)loginWithPhone:(id)args
 {
-    ENSURE_UI_THREAD(loginWithPhone, unused);
+    ENSURE_UI_THREAD(loginWithPhone, args);
+
+    id phone = [args objectAtIndex:0];
+    ENSURE_TYPE_OR_NIL(phone, NSString);
     
-    // TODO: Support prefill
-    // AKFPhoneNumber *phoneNumber = [[AKFPhoneNumber alloc] initWithCountryCode:@"49" phoneNumber:@"176xxxx35897"];
+    NSLocale *currentLocale = [NSLocale currentLocale];
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    
+    AKFPhoneNumber *phoneNumber = [[AKFPhoneNumber alloc] initWithCountryCode:countryCode phoneNumber:[TiUtils stringValue:phone]];
     NSString *inputState = [[NSUUID UUID] UUIDString];
     UIViewController<AKFViewController> *viewController = [accountKit viewControllerForPhoneLoginWithPhoneNumber:nil state:inputState];
     [viewController setEnableSendToFacebook:YES];
     [[[[TiApp app] controller] topPresentedController] presentViewController:viewController animated:YES completion:nil];
 }
 
-- (void)loginWithEmail:(id)unused
+- (void)loginWithEmail:(id)args
 {
-    ENSURE_UI_THREAD(loginWithEmail, unused);
+    ENSURE_UI_THREAD(loginWithEmail, args);
+    
+    id email = [args objectAtIndex:0];
+    ENSURE_TYPE_OR_NIL(email, NSString);
 
-    // TODO: Support prefill
-    // NSString *email = @"test@example.com";
+    NSString *prefilledEmail = [TiUtils stringValue:email];
     NSString *inputState = [[NSUUID UUID] UUIDString];
-    UIViewController<AKFViewController> *viewController = [accountKit viewControllerForEmailLoginWithEmail:nil state:inputState];
+    UIViewController<AKFViewController> *viewController = [accountKit viewControllerForEmailLoginWithEmail:prefilledEmail state:inputState];
     [[[[TiApp app] controller] topPresentedController] presentViewController:viewController animated:YES completion:nil];
 }
 
 - (void)logout:(id)unused
 {
-   ENSURE_UI_THREAD(logout, unused);
    [accountKit logOut];
 }
 
@@ -120,11 +94,16 @@
     
     TiThreadPerformOnMainThread(^{
         [accountKit requestAccount:^(id<AKFAccount> account, NSError *error) {
-            NSMutableDictionary * event = [@{
-                @"success":NUMBOOL(!error),
-                @"error": error ? [error localizedDescription] : [NSNull null],
-            } copy];
+            NSMutableDictionary * event = [@{@"success":NUMBOOL(!error)} copy];
             
+            if (error != nil) {
+                [event setValue:[error localizedDescription] forKey:@"error"];
+            }
+            
+            if ([account accountID] != nil) {
+                [event setValue:[account accountID] forKey:@"accountID"];
+            }
+
             if ([account emailAddress] != nil) {
                 [event setValue:[account emailAddress] forKey:@"email"];
             }
@@ -137,34 +116,47 @@
             [[callback context] enqueue:invocationEvent];
             [invocationEvent release];
             [event release];
-
         }];
     },NO);
 }
 
-#pragma Delegates
+#pragma mark Delegates
 
 - (void)viewController:(UIViewController<AKFViewController> *)viewController didCompleteLoginWithAccessToken:(id<AKFAccessToken>)accessToken state:(NSString *)state
 {
-    [self fireEvent:@"success" withObject:@{@"accessToken": [self dictionaryFromAccessToken:accessToken]}];
+    [self fireEvent:@"login" withObject:@{
+        @"accessToken": [self dictionaryFromAccessToken:accessToken],
+        @"state":state,
+        @"success": @YES
+    }];
 }
 
 - (void)viewControllerDidCancel:(UIViewController<AKFViewController> *)viewController
 {
-    [self fireEvent:@"cancel"];
+    [self fireEvent:@"login" withObject:@{
+        @"success": @NO,
+        @"cancel": @YES
+    }];
 }
 
 - (void)viewController:(UIViewController<AKFViewController> *)viewController didFailWithError:(NSError *)error
 {
-    [self fireEvent:@"error" withObject:@{@"message":[error localizedDescription]}];
+    [self fireEvent:@"login" withObject:@{
+        @"success": @NO,
+        @"error":[error localizedDescription]
+    }];
 }
 
 - (void)viewController:(UIViewController<AKFViewController> *)viewController didCompleteLoginWithAuthorizationCode:(NSString *)code state:(NSString *)state
 {
-    [self fireEvent:@"success" withObject:@{@"code":code, @"state":state}];
+    [self fireEvent:@"login" withObject:@{
+        @"success": @YES,
+        @"code":code,
+        @"state":state
+    }];
 }
 
-#pragma Utils
+#pragma mark Utilities
 
 - (NSDictionary*)dictionaryFromAccessToken:(id<AKFAccessToken>)accessToken
 {
@@ -174,6 +166,8 @@
         @"lastRefresh": [accessToken lastRefresh],
     };
 }
+
+#pragma mark Constants
 
 MAKE_SYSTEM_PROP(RESPONSE_TYPE_AUTHORIZATION_CODE, AKFResponseTypeAuthorizationCode);
 MAKE_SYSTEM_PROP(RESPONSE_TYPE_ACCESS_TOKEN, AKFResponseTypeAccessToken);

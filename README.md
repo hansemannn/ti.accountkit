@@ -30,18 +30,8 @@ var accountkit = require('ti.accountkit');
 // One of RESPONSE_TYPE_AUTHORIZATION_CODE or RESPONSE_TYPE_ACCESS_TOKEN
 accountkit.initialize(accountkit.RESPONSE_TYPE_AUTHORIZATION_CODE);
 
-accountkit.addEventListener("success", function(e) {
-    Ti.API.warn("success");
-    Ti.API.warn(e);
-});
-
-accountkit.addEventListener("cancel", function(e) {
-    Ti.API.warn("cancel");
-    Ti.API.warn(e);
-});
-
-accountkit.addEventListener("error", function(e) {
-    Ti.API.warn("error");
+accountkit.addEventListener("login", function(e) {
+    Ti.API.warn("success: " + e.success);
     Ti.API.warn(e);
 });
 
@@ -51,6 +41,7 @@ var btn1 = Ti.UI.createButton({
 });
 
 btn1.addEventListener("click", function() {
+    // You can also pass a phone number to pre-fill the form
     accountkit.loginWithPhone();
 });
 
@@ -60,6 +51,7 @@ var btn2 = Ti.UI.createButton({
 });
 
 btn2.addEventListener("click", function() {
+    // You can also pass an email address to pre-fill the form
     accountkit.loginWithEmail();
 });
 
