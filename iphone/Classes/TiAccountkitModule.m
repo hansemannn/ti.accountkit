@@ -45,10 +45,13 @@
 
 - (void)initialize:(id)args
 {
+    ENSURE_ARG_COUNT(args, 1);
     ENSURE_TYPE([args objectAtIndex:0], NSNumber);
     
+    AKFResponseType *responseType = [TiUtils intValue:[args objectAtIndex:0] def:AKFResponseTypeAccessToken];
+    
     if (accountKit == nil) {
-        accountKit = [[AKFAccountKit alloc] initWithResponseType:NUMINT([args objectAtIndex:0])];
+        accountKit = [[AKFAccountKit alloc] initWithResponseType:responseType];
     }
 }
 
@@ -62,11 +65,12 @@
     NSLocale *currentLocale = [NSLocale currentLocale];
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
     
-    AKFPhoneNumber *phoneNumber = [[AKFPhoneNumber alloc] initWithCountryCode:countryCode phoneNumber:[TiUtils stringValue:phone]];
+    AKFPhoneNumber *phoneNumber = [[AKFPhoneNumber alloc] initWithCountryCode:@"DE" phoneNumber:[TiUtils stringValue:phone]];
     NSString *inputState = [[NSUUID UUID] UUIDString];
     UIViewController<AKFViewController> *viewController = [accountKit viewControllerForPhoneLoginWithPhoneNumber:nil state:inputState];
     [viewController setEnableSendToFacebook:YES];
-    [[[[TiApp app] controller] topPresentedController] presentViewController:viewController animated:YES completion:nil];
+    [viewController setDelegate:self];
+    [[[TiApp app] controller] presentViewController:viewController animated:YES completion:nil];
 }
 
 - (void)loginWithEmail:(id)args
@@ -79,7 +83,8 @@
     NSString *prefilledEmail = [TiUtils stringValue:email];
     NSString *inputState = [[NSUUID UUID] UUIDString];
     UIViewController<AKFViewController> *viewController = [accountKit viewControllerForEmailLoginWithEmail:prefilledEmail state:inputState];
-    [[[[TiApp app] controller] topPresentedController] presentViewController:viewController animated:YES completion:nil];
+    [viewController setDelegate:self];
+    [[[TiApp app] controller] presentViewController:viewController animated:YES completion:nil];
 }
 
 - (void)logout:(id)unused
@@ -94,22 +99,23 @@
     
     TiThreadPerformOnMainThread(^{
         [accountKit requestAccount:^(id<AKFAccount> account, NSError *error) {
-            NSMutableDictionary * event = [@{@"success":NUMBOOL(!error)} copy];
-            
-            if (error != nil) {
-                [event setValue:[error localizedDescription] forKey:@"error"];
-            }
-            
-            if ([account accountID] != nil) {
-                [event setValue:[account accountID] forKey:@"accountID"];
-            }
 
-            if ([account emailAddress] != nil) {
-                [event setValue:[account emailAddress] forKey:@"email"];
-            }
-            
-            if ([account phoneNumber] != nil) {
-                [event setValue:[account phoneNumber] forKey:@"phone"];
+            NSMutableDictionary * event = [[NSMutableDictionary alloc] initWithDictionary:@{@"success":[NSNumber numberWithBool:!error]}];
+
+            if (error != nil) {
+                [event setValue:[[[[error userInfo] valueForKey:@"NSUnderlyingError"] userInfo] valueForKey:@"com.facebook.accountkit:ErrorDeveloperMessageKey"] forKey:@"message"];
+            } else {
+                if ([account accountID] != nil) {
+                    [event setValue:[account accountID] forKey:@"accountID"];
+                }
+                
+                if ([account emailAddress] != nil) {
+                    [event setValue:[account emailAddress] forKey:@"email"];
+                }
+                
+                if ([account phoneNumber] != nil) {
+                    [event setValue:[account phoneNumber] forKey:@"phone"];
+                }
             }
             
             KrollEvent * invocationEvent = [[KrollEvent alloc] initWithCallback:callback eventObject:event thisObject:self];
@@ -117,7 +123,7 @@
             [invocationEvent release];
             [event release];
         }];
-    },NO);
+    }, NO);
 }
 
 #pragma mark Delegates
