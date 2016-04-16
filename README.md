@@ -12,6 +12,15 @@ Support for the Facebook AccountKit framework in Titanium Mobile to login using 
 <ios>
     <plist>
         <dict>
+            <key>CFBundleURLTypes</key>
+            <array>
+                <dict>
+                    <key>CFBundleURLSchemes</key>
+                    <array>
+                        <string>ak{your-fb-app-id}</string>
+                    </array>
+                </dict>
+            </array>
             <key>FacebookAppID</key>
             <string>{your-fb-app-id}</string>
             <key>AccountKitClientToken</key>
