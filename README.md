@@ -2,7 +2,7 @@
 
 Support for the Facebook AccountKit framework in Titanium Mobile to login using an email or phone number.
 
-<img src="http://abload.de/img/simulatorscreenshot1231k4v.png" width="650" />
+<img src="http://abload.de/img/screens1yk59.jpg" width="1000" />
 
 ## Usage
 
