@@ -2,8 +2,6 @@
 
 Support for the Facebook AccountKit framework in Titanium Mobile to login using an email or phone number.
 
-> The used framework is in preview version 1.0.0 and still has some crashes occurring. Feel free to submit PR's if a new framework version is released by Facebook.
-
 <img src="http://abload.de/img/simulatorscreenshot1231k4v.png" width="650" />
 
 ## Usage
