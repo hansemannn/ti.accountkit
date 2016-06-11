@@ -126,6 +126,32 @@
     }, NO);
 }
 
+- (void)cancelLogin:(id)unused
+{
+    [accountKit cancelLogin];
+}
+
+- (void)currentAccessToken
+{
+    return @{
+        @"accountID": [[accountKit currentAccessToken] accountID],
+        @"applicationID": [[accountKit currentAccessToken] applicationID],
+        @"lastRefresh": [[accountKit currentAccessToken] lastRefresh],
+        @"tokenRefreshInterval": NUMDOUBLE([[accountKit currentAccessToken] tokenRefreshInterval]),
+        @"tokenString": [[accountKit currentAccessToken] tokenString],
+    };
+}
+
+- (NSString*)graphVersion
+{
+    return [AKFAccountKit graphVersionString];
+}
+
+- (NSString*)version
+{
+    return [AKFAccountKit versionString];
+}
+
 #pragma mark Delegates
 
 - (void)viewController:(UIViewController<AKFViewController> *)viewController didCompleteLoginWithAccessToken:(id<AKFAccessToken>)accessToken state:(NSString *)state

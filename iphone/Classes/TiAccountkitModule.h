@@ -55,4 +55,34 @@
  */
 - (void)requestAccount:(id)args;
 
+/**
+ *  Cancels a current login process
+ *
+ *  @since 1.1.0
+ */
+- (void)cancelLogin:(id)unused;
+
+/**
+ *  Returns a dictionary of information regarding the current access-token.
+ *
+ *  @since 1.1.0
+ */
+- (void)currentAccessToken;
+
+/**
+ *  Returns the version of the Account Kit Graph API used.
+ *
+ *  @return The Account Kit Graph API version
+ *  @since 1.1.0
+ */
+- (NSString*)graphVersion;
+
+/**
+ *  Returns the version of the Account Kit SDK.
+ *
+ *  @return The Account Kit SDK version
+ *  @since 1.1.0
+ */
+- (NSString*)version;
+
 @end
