@@ -133,13 +133,7 @@
 
 - (void)currentAccessToken
 {
-    return @{
-        @"accountID": [[accountKit currentAccessToken] accountID],
-        @"applicationID": [[accountKit currentAccessToken] applicationID],
-        @"lastRefresh": [[accountKit currentAccessToken] lastRefresh],
-        @"tokenRefreshInterval": NUMDOUBLE([[accountKit currentAccessToken] tokenRefreshInterval]),
-        @"tokenString": [[accountKit currentAccessToken] tokenString],
-    };
+    return [self dictionaryFromAccessToken:[accountKit currentAccessToken]];
 }
 
 - (NSString*)graphVersion
@@ -193,9 +187,11 @@
 - (NSDictionary*)dictionaryFromAccessToken:(id<AKFAccessToken>)accessToken
 {
     return @{
-        @"accountID": [accessToken accountID],
-        @"applicationID": [accessToken applicationID],
-        @"lastRefresh": [accessToken lastRefresh],
+         @"accountID": [accessToken accountID],
+         @"applicationID": [accessToken applicationID],
+         @"lastRefresh": [accessToken lastRefresh],
+         @"tokenRefreshInterval": NUMDOUBLE([accessToken tokenRefreshInterval]),
+         @"tokenString": [accessToken tokenString]
     };
 }
 
