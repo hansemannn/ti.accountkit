@@ -196,6 +196,7 @@
         @"accountID": [accessToken accountID],
         @"applicationID": [accessToken applicationID],
         @"lastRefresh": [accessToken lastRefresh],
+        @"access_token": [accessToken tokenString]
     };
 }
 
