@@ -2,6 +2,8 @@
 
 Support for the Facebook AccountKit framework in Titanium Mobile to login using an email or phone number.
 
+> Note: This is the iOS version of Ti.AccountKit. You might want to check [appwert/ti.accountkit](https://github.com/AppWerft/Ti.AccountKit) for the Android equivalent 🚀.
+
 <img src="http://abload.de/img/screens1yk59.jpg" width="1000" />
 
 ## Usage
