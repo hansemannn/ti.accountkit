@@ -48,7 +48,7 @@
     ENSURE_ARG_COUNT(args, 1);
     ENSURE_TYPE([args objectAtIndex:0], NSNumber);
     
-    AKFResponseType *responseType = [TiUtils intValue:[args objectAtIndex:0] def:AKFResponseTypeAccessToken];
+    AKFResponseType responseType = [TiUtils intValue:[args objectAtIndex:0] def:AKFResponseTypeAccessToken];
     
     if (accountKit == nil) {
         accountKit = [[AKFAccountKit alloc] initWithResponseType:responseType];
