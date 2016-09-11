@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Sähköpostiosoite on virheellinen. Yritä uudelleen.";
 "com_accountkit_email_loading_title" = "Lähetetään sähköpostiviestiä\U2026";
 "com_accountkit_email_login_retry_title" = "Vahvista sähköpostisi";
-"com_accountkit_email_login_text" = "Napauta %1$@, niin saat vahvistuksen Account Kit by Facebookilta sähköpostitse. %2$@ käyttää tätä auttaessaan sinua kirjautumaan sisään, mutta et tarvitse Facebook-tiliä. <a href=\"%3$@\">Lue lisää.</a>";
+"com_accountkit_email_login_text" = "Valitsemalla %1$@ saat Account Kit by Facebookilta sähköpostivahvistuksen, jonka avulla voit käyttää palvelua %2$@. Käyttö ei edellytä Facebook-käyttäjätiliä. <a href=\"%3$@\">Katso, miten Facebook käyttää tietojasi</a>.";
 "com_accountkit_email_login_title" = "Anna sähköpostiosoitteesi";
 "com_accountkit_email_not_received" = "Lähetä sähköpostiviesti uudelleen";
 "com_accountkit_email_verify_title" = "Avaa lähettämämme sähköpostiviesti ja vahvista osoitteesi";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Lähetetään koodiasi\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Numero";
 "com_accountkit_phone_login_retry_title" = "Vahvista puhelinnumerosi";
-"com_accountkit_phone_login_text" = "Napauta %1$@, niin saat vahvistuksen Account Kit by Facebookilta tekstiviestitse. %2$@ käyttää tätä auttaessaan sinua kirjautumaan sisään, mutta et tarvitse Facebook-tiliä. Viesteistä ja tiedonsiirrosta saatetaan veloittaa. <a href=\"%3$@\">Lue lisää.</a>";
+"com_accountkit_phone_login_text" = "Valitsemalla %1$@ saat Account Kit by Facebookilta tekstiviestivahvistuksen, jonka avulla voit käyttää palvelua %2$@. Käyttö ei edellytä Facebook-käyttäjätiliä. Viesteistä ja tiedonsiirrosta voidaan periä veloitus. <a href=\"%3$@\">Katso, miten Facebook käyttää tietojasi</a>.";
 "com_accountkit_phone_login_title" = "Anna puhelinnumerosi";
 "com_accountkit_resend_email_text" = "Lähetä uusi sähköposti";
 "com_accountkit_resend_title" = "Pahoittelemme. Jatka kokeilemalla näitä vaihtoehtoja.";

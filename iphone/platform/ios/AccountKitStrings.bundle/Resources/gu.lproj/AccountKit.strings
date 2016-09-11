@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "આ ઇમેઇલ ખોટું છે. કૃપા કરીને ફરી પ્રયાસ કરો.";
 "com_accountkit_email_loading_title" = "ઇમેઇલ મોકલી રહ્યાં છે\U2026";
 "com_accountkit_email_login_retry_title" = "તમારી ઈમેઇલની પુષ્ટિ કરો";
-"com_accountkit_email_login_text" = "Facebook ની Account Kit માંથી પુષ્ટિકરણ ઇમેઇલ મેળવવા માટે %1$@ ટૅપ કરો. %2$@ એ આનો ઉપયોગ તમને સાઇન ઇન કરવામાં મદદ માટે કરે છે, પરંતુ તમને ફેસબુક એકાઉન્ટની જરૂર પડતી નથી. <a href=\"%3$@\">વધુ જાણો</a>.";
+"com_accountkit_email_login_text" = "તમને %2$@ ના ઉપયોગ માટે મદદ કરવા ફેસબુક દ્વારા એકાઉન્ટ કિટમાંથી ઈમેઇલ પુષ્ટિકરણ મેળવવા માટે %1$@ ટૅપ કરો. તમારે તેનો ઉપયોગ કરવા માટે ફેસબુક એકાઉન્ટની જરૂર નથી. <a href=\"%3$@\"> જાણો ફેસબુક તમારી માહિતીનો ઉપયોગ કેવી રીતે કરે છે</a>.";
 "com_accountkit_email_login_title" = "તમારું ઇમેઇલ સરનામું દાખલ કરો";
 "com_accountkit_email_not_received" = "ઇમેઇલ ફરીથી મોકલો";
 "com_accountkit_email_verify_title" = "અમે મોકલેલ ઇમેઇલ ખોલો અને તમારા સરનામાની પુષ્ટિ કરો";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "તમારો કોડ મોકલી રહ્યાં છીએ\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "નંબર";
 "com_accountkit_phone_login_retry_title" = "તમારા ફોન નંબરની પુષ્ટિ કરો";
-"com_accountkit_phone_login_text" = "Facebook દ્વારા સંચાલિત Account Kit માંથી SMS પુષ્ટિકરણ મેળવવા માટે %1$@ ટૅપ કરો. %2$@ એ આનો ઉપયોગ તમને સાઇન ઇન કરવામાં મદદ માટે કરે છે, પરંતુ તમને ફેસબુક એકાઉન્ટની જરૂર પડતી નથી. સંદેશ અને ડેટા દર લાગુ થઈ શકે છે. <a href=\"%3$@\">વધુ જાણો</a>.";
+"com_accountkit_phone_login_text" = "%2$@ ના ઉપયોગ માટે તમને મદદ કરવા ફેસબુક દ્વારા એકાઉન્ટ કિટમાંથી એસએમએસ પુષ્ટિકરણ મેળવવા માટે %1$@ ટૅપ કરો. તમારે તેનો ઉપયોગ કરવા માટે ફેસબુક એકાઉન્ટની જરૂર નથી. સંદેશ અને ડેટા દર લાગુ થઈ શકે છે. <a href=\"%3$@\">જાણો ફેસબુક તમારી માહિતીનો ઉપયોગ કેવી રીતે કરે છે</a>.";
 "com_accountkit_phone_login_title" = "તમારો ફોન નંબર દાખલ કરો";
 "com_accountkit_resend_email_text" = "નવી ઇમેઇલ મોકલો";
 "com_accountkit_resend_title" = "અમને ક્ષમા કરશો. ચાલુ રાખવા માટે આ વિકલ્પો અજમાવી જુઓ.";

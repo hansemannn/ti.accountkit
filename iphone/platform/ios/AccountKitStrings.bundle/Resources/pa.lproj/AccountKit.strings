@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "ਇਹ ਈਮੇਲ ਗਲਤ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।";
 "com_accountkit_email_loading_title" = "ਈਮੇਲ ਭੇਜ ਰਿਹਾ ਹੈ\U2026";
 "com_accountkit_email_login_retry_title" = "ਆਪਣੀ ਈਮੇਲ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ";
-"com_accountkit_email_login_text" = "Facebook ਰਾਹੀਂ Account Kit ਤੋਂ ਪੁਸ਼ਟੀਕਰਨ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ %1$@ ਨੂੰ ਟੈਪ ਕਰੋ। %2$@ ਤੁਹਾਨੂੰ ਸਾਈਨ ਇਨ ਕਰਵਾਉਣ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ, ਲੇਕਿਨ ਤੁਹਾਨੂੰ Facebook ਖਾਤੇ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ। <a href=\"%3$@\">ਹੋਰ ਜਾਣੋ</a>";
+"com_accountkit_email_login_text" = "%2$@ ਨੂੰ ਵਰਤਣ ਵਿੱਚ ਤੁਹਾਡੀ ਮੱਦਦ ਕਰਨ ਲਈ Facebook ਰਾਹੀਂ Account Kit ਤੋਂ ਕੋਈ ਈਮੇਲ ਪੁਸ਼ਟੀਕਰਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ %1$@ ਨੂੰ ਟੈਪ ਕਰੋ। <a href=\"%3$@\">ਜਾਣੋ ਕਿ Facebook ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਕਿਵੇਂ ਵਰਤਦਾ ਹੈ</a>";
 "com_accountkit_email_login_title" = "ਆਪਣਾ ਈਮੇਲ ਪਤਾ ਦਾਖ਼ਲ ਕਰੋ";
 "com_accountkit_email_not_received" = "ਈਮੇਲ ਨੂੰ ਦੁਬਾਰਾ ਭੇਜੋ";
 "com_accountkit_email_verify_title" = "ਸਾਡੇ ਦੁਆਰਾ ਭੇਜੀ ਗਈ ਈਮੇਲ ਖੋਲ੍ਹੋ ਅਤੇ ਆਪਣੇ ਪਤੇ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "ਤੁਹਾਡਾ ਕੋਡ ਭੇਜ ਰਿਹਾ ਹੈ\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "ਨੰਬਰ";
 "com_accountkit_phone_login_retry_title" = "ਆਪਣੇ ਫ਼ੋਨ ਨੰਬਰ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ";
-"com_accountkit_phone_login_text" = "Facebook ਦੁਆਰਾ ਸੰਚਾਲਿਤ Account Kit ਤੋਂ SMS ਪੁਸ਼ਟੀਕਰਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ %1$@ ਨੂੰ ਟੈਪ ਕਰੋ। %2$@ ਤੁਹਾਨੂੰ ਸਾਈਨ ਇਨ ਕਰਵਾਉਣ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ, ਲੇਕਿਨ ਤੁਹਾਨੂੰ Facebook ਖਾਤੇ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ। ਸੁਨੇਹਾ ਅਤੇ ਡੇਟਾ ਦਰਾਂ ਲਾਗੂ ਹੋ ਸਕਦੀਆਂ ਹਨ। <a href=\"%3$@\">ਹੋਰ ਜਾਣੋ</a>";
+"com_accountkit_phone_login_text" = "%2$@ ਨੂੰ ਵਰਤਣ ਵਿੱਚ ਤੁਹਾਡੀ ਮੱਦਦ ਕਰਨ ਲਈ Facebook ਰਾਹੀਂ Account Kit ਤੋਂ ਕੋਈ SMS ਪੁਸ਼ਟੀਕਰਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ %1$@ ਨੂੰ ਟੈਪ ਕਰੋ। ਸੁਨੇਹਾ ਅਤੇ ਡੇਟਾ ਦਰਾਂ ਲਾਗੂ ਹੋ ਸਕਦੀਆਂ ਹਨ। <a href=\"%3$@\">ਜਾਣੋ ਕਿ Facebook ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਕਿਵੇਂ ਵਰਤਦਾ ਹੈ</a>";
 "com_accountkit_phone_login_title" = "ਆਪਣਾ ਫ਼ੋਨ ਨੰਬਰ ਦਾਖ਼ਲ ਕਰੋ";
 "com_accountkit_resend_email_text" = "ਨਵੀਂ ਈਮੇਲ ਭੇਜੋ";
 "com_accountkit_resend_title" = "ਅਸੀਂ ਮੁਆਫ਼ੀ ਚਾਹੁੰਦੇ ਹਾਂ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਇਹਨਾਂ ਵਿਕਲਪਾਂ ਨੂੰ ਅਜ਼ਮਾਓ।";

@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Email này không chính xác. Vui lòng thử lại.";
 "com_accountkit_email_loading_title" = "Đang gửi email\U2026";
 "com_accountkit_email_login_retry_title" = "Xác nhận email của bạn";
-"com_accountkit_email_login_text" = "Nhấn vào %1$@ để nhận email xác nhận từ Account Kit của Facebook. %2$@ dùng cách này để giúp bạn đăng nhập, nhưng bạn không cần tài khoản Facebook. <a href=\"%3$@\">Tìm hiểu thêm.</a>";
+"com_accountkit_email_login_text" = "Nhấn vào %1$@ để nhận xác nhận bằng email từ Account Kit của Facebook nhằm giúp bạn sử dụng %2$@ mà không cần có tài khoản Facebook. <a href=\"%3$@\">Tìm hiểu cách Facebook sử dụng thông tin của bạn</a>.";
 "com_accountkit_email_login_title" = "Nhập địa chỉ email của bạn";
 "com_accountkit_email_not_received" = "Gửi lại email";
 "com_accountkit_email_verify_title" = "Hãy mở email mà chúng tôi đã gửi và xác nhận địa chỉ của bạn";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Đang gửi mã của bạn\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Số";
 "com_accountkit_phone_login_retry_title" = "Xác nhận số điện thoại của bạn";
-"com_accountkit_phone_login_text" = "Nhấn vào %1$@ để nhận xác nhận bằng SMS từ Account Kit của Facebook. %2$@ dùng cách này để giúp bạn đăng nhập, nhưng bạn không cần tài khoản Facebook. Bạn có thể bị tính cước tin nhắn và dữ liệu. <a href=\"%3$@\">Tìm hiểu thêm.</a>";
+"com_accountkit_phone_login_text" = "Nhấn vào %1$@ để nhận xác nhận bằng SMS từ Account Kit của Facebook nhằm giúp bạn sử dụng %2$@ mà không cần có tài khoản Facebook. Bạn có thể bị tính cước tin nhắn và dữ liệu. <a href=\"%3$@\">Tìm hiểu cách Facebook sử dụng thông tin của bạn</a>.";
 "com_accountkit_phone_login_title" = "Nhập số điện thoại của bạn";
 "com_accountkit_resend_email_text" = "Gửi email mới";
 "com_accountkit_resend_title" = "Chúng tôi rất tiếc. Hãy thử những tùy chọn này để tiếp tục.";

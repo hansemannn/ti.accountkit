@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "E-mailen er ikke korrekt. Prøv igen.";
 "com_accountkit_email_loading_title" = "Sender e-mail \U2026";
 "com_accountkit_email_login_retry_title" = "Bekræft din e-mail";
-"com_accountkit_email_login_text" = "Tryk på %1$@ for at få en bekræftelsesmail fra Account Kit leveret af Facebook. %2$@ bruger dette til at hjælpe dig med at logge på, men det er ikke nødvendigt at have en Facebook-konto. <a href=\"%3$@\">Læs mere</a>.";
+"com_accountkit_email_login_text" = "Tryk på %1$ for at modtage en e-mailbekræftelse fra Account Kit fra Facebook, der kan hjælpe dig med at bruge %2$@. Du behøver ikke at have en Facebook-konto for at bruge den. <a href=\"%3$@\">Se, hvordan Facebook bruger dine oplysninger</a>.";
 "com_accountkit_email_login_title" = "Indtast din e-mailadresse";
 "com_accountkit_email_not_received" = "Send e-mail igen";
 "com_accountkit_email_verify_title" = "Åbn den e-mail, vi har sendt, og bekræft din adresse";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Sender din kode\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Nummer";
 "com_accountkit_phone_login_retry_title" = "Bekræft dit telefonnummer";
-"com_accountkit_phone_login_text" = "Tryk på %1$@ for at få en sms-bekræftelse fra Account Kit leveret af Facebook. %2$@ bruger dette til at hjælpe dig med at logge på, men det er ikke nødvendigt at have en Facebook-konto. Du skal muligvis betale for beskeder og dataforbrug. <a href=\"%3$@\">Læs mere</a>.";
+"com_accountkit_phone_login_text" = "Tryk på %1$ for at modtage en sms-bekræftelse fra Account Kit fra Facebook, der kan hjælpe dig med at bruge %2$@. Du behøver ikke at have en Facebook-konto for at bruge den. Du skal muligvis betale for beskeder og dataforbrug. <a href=\"%3$@\">Se, hvordan Facebook bruger dine oplysninger</a>.";
 "com_accountkit_phone_login_title" = "Indtast dit telefonnummer";
 "com_accountkit_resend_email_text" = "Send ny e-mail";
 "com_accountkit_resend_title" = "Vi beklager. Prøv følgende for at fortsætte.";

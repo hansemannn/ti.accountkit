@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Неверный эл. адрес. Попробуйте еще раз.";
 "com_accountkit_email_loading_title" = "Отправка\U2026";
 "com_accountkit_email_login_retry_title" = "Подтвердите правильность своего эл. адреса";
-"com_accountkit_email_login_text" = "Коснитесь %1$@, чтобы получить эл. письмо с подтверждением, отправляемое Account Kit от Facebook. %2$@ использует эту технологию для процедуры входа, но вам не обязательно иметь аккаунт на Facebook. <a href=\"%3$@\">Подробнее.</a>";
+"com_accountkit_email_login_text" = "Коснитесь %1$@, чтобы получить эл. письмо с подтверждением со стороны Account Kit от Facebook для использования %2$@. Вам не обязательно иметь аккаунт на Facebook, чтобы использовать его. <a href=\"%3$@\">Узнайте, как Facebook использует вашу информацию</a>.";
 "com_accountkit_email_login_title" = "Введите свой эл. адрес";
 "com_accountkit_email_not_received" = "Повторная отправка эл. письма";
 "com_accountkit_email_verify_title" = "Откройте эл. письмо, которое мы вам отправили, и подтвердите свой эл. адрес";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Выполняется отправка кода\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Номер";
 "com_accountkit_phone_login_retry_title" = "Подтвердите свой номер телефона";
-"com_accountkit_phone_login_text" = "Коснитесь %1$@, чтобы получить SMS с подтверждением, отправляемое Account Kit от Facebook. %2$@ использует эту технологию для процедуры входа, но вам не обязательно иметь аккаунт на Facebook. Может взиматься плата за передачу сообщений и данных. <a href=\"%3$@\">Подробнее.</a>";
+"com_accountkit_phone_login_text" = "Коснитесь %1$@, чтобы получить SMS-подтверждение со стороны Account Kit от Facebook для использования %2$@. Вам не обязательно иметь аккаунт на Facebook, чтобы использовать его. Может взиматься плата за передачу сообщений и данных. <a href=\"%3$@\">Узнайте, как Facebook использует вашу информацию</a>.";
 "com_accountkit_phone_login_title" = "Введите свой номер телефона";
 "com_accountkit_resend_email_text" = "Отправить письмо заново";
 "com_accountkit_resend_title" = "Приносим извинения. Попробуйте сделать следующее.";

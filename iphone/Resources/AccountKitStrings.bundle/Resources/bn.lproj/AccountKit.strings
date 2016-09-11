@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "এই ইমেলটি অবৈধ৷ অনুগ্রহ করে আবার চেষ্টা করুন৷";
 "com_accountkit_email_loading_title" = "ইমেল পাঠানো হচ্ছে\U2026";
 "com_accountkit_email_login_retry_title" = "আপনার ইমেল নিশ্চিত করুন";
-"com_accountkit_email_login_text" = "Facebook এর Account Kit থেকে একটি নিশ্চিতকরণ ইমেল পেতে %1$@ এ আলতো চাপ দিন৷ %2$@ এটি আপনাকে সাইন ইন করতে সাহায্য করার জন্য ব্যবহার করে, কিন্তু আপনার কোনো Facebook অ্যাকাউণ্টের প্রয়োজন নেই। <a href=\"%3$@\">আরও জানুন। </a>";
+"com_accountkit_email_login_text" = "আপনাকে %2$@ ব্যবহার করতে সাহায্য করার জন্য Facebook Account Kit থেকে একটি নিশ্চিতকরণ ইমেল পাঠাবে তা পেতে %1$@ -এ আলতো চাপ দিন৷ এটি ব্যবহার করার জন্য আপনার কোনো Facebook অ্যাকাউন্টের প্রয়োজন নেই৷ <a href=\"%3$@\">Facebook আপনার তথ্য কিভাবে ব্যবহার করে তা জানুন</a>৷";
 "com_accountkit_email_login_title" = "আপনার ইমেল ঠিকানা লিখুন";
 "com_accountkit_email_not_received" = "ইমেল পুনরায় পাঠান";
 "com_accountkit_email_verify_title" = "আমরা যে ইমেলটি পাঠিয়েছি সেটি খুলুন এবং আপনার ঠিকানা নিশ্চিত করুন";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "আপনার কোড পাঠানো হচ্ছে\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "নম্বর";
 "com_accountkit_phone_login_retry_title" = "আপনার ফোন নম্বর নিশ্চিত করুন";
-"com_accountkit_phone_login_text" = "Facebook এর Account Kit থেকে একটি নিশ্চিতকরণ ইমেল পেতে %1$@ এ আলতো চাপ দিন৷ %2$@ এটি আপনাকে সাইন ইন করতে সাহায্য করার জন্য ব্যবহার করে, কিন্তু আপনার কোনো Facebook অ্যাকাউণ্টের প্রয়োজন নেই। বার্তা ও ডেটা রেটগুলি প্রযোজ্য হবে। <a href=\"%3$@\">আরও জানুন। </a>";
+"com_accountkit_phone_login_text" = "আপনাকে %2$@ ব্যবহার করতে সাহায্য করার জন্য Facebook Account Kit থেকে একটি নিশ্চিতকরণ SMS পাঠাবে তা পেতে %1$@ এ আলতো চাপ দিন৷ এটি ব্যবহার করার জন্য আপনার কোনো Facebook অ্যাকাউন্টের প্রয়োজন নেই৷  বার্তা ও ডেটা রেট প্রযোজ্য হবে। <a href=\"%3$@\">Facebook আপনার তথ্য কিভাবে ব্যবহার করে তা জানুন</a>৷";
 "com_accountkit_phone_login_title" = "আপনার ফোন নম্বর লিখুন";
 "com_accountkit_resend_email_text" = "নতুন ইমেল পাঠান";
 "com_accountkit_resend_title" = "আমরা দুঃখিত৷ চালিয়ে যেতে এই বিকল্পসমূহ ব্যবহার করার চেষ্টা করুন৷";

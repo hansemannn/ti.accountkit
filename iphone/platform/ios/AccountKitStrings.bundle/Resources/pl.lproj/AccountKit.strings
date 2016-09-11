@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Niepoprawny adres e-mail. Spróbuj ponownie.";
 "com_accountkit_email_loading_title" = "Wysyłanie wiadomości e-mail\U2026";
 "com_accountkit_email_login_retry_title" = "Potwierdź adres e-mail";
-"com_accountkit_email_login_text" = "Dotknij przycisku %1$@, aby otrzymać e-mail z potwierdzeniem z usługi Account Kit obsługiwanej przez Facebooka. Aplikacja %2$@ korzysta z tej możliwości, aby umożliwić Ci zarejestrowanie się, ale nie musisz mieć konta na Facebooku. <a href=\"%3$@\">Więcej informacji.</a>";
+"com_accountkit_email_login_text" = "Dotknij pozycji %1$@, aby otrzymać e-mail z potwierdzeniem z Account Kit by Facebook i korzystać z %2$@. Nie musisz mieć konta na Facebooku, aby to zrobić. <a href=\"%3$@\">Dowiedz się, jak Facebook wykorzystuje Twoje dane</a>.";
 "com_accountkit_email_login_title" = "Wprowadź swój adres e-mail";
 "com_accountkit_email_not_received" = "Wyślij ponownie e-mail";
 "com_accountkit_email_verify_title" = "Otwórz otrzymany od nas e-mail i potwierdź swój adres";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Wysyłanie kodu\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Numer";
 "com_accountkit_phone_login_retry_title" = "Potwierdź numer telefonu";
-"com_accountkit_phone_login_text" = "Dotknij przycisku %1$@, aby otrzymać SMS z potwierdzeniem z usługi Account Kit obsługiwanej przez Facebooka. Aplikacja %2$@ korzysta z tej możliwości, aby umożliwić Ci zarejestrowanie się, ale nie musisz mieć konta na Facebooku. Mogą zostać naliczone opłaty za przesyłanie wiadomości i danych. <a href=\"%3$@\">Więcej informacji.</a>";
+"com_accountkit_phone_login_text" = "Dotknij pozycji %1$@, aby otrzymać SMS z potwierdzeniem z Account Kit by Facebook i korzystać z %2$@. Nie musisz mieć konta na Facebooku, aby to zrobić. Mogą zostać naliczone opłaty za przesyłanie wiadomości i danych. <a href=\"%3$@\">Dowiedz się, jak Facebook wykorzystuje Twoje dane</a>.";
 "com_accountkit_phone_login_title" = "Wprowadź swój numer telefonu";
 "com_accountkit_resend_email_text" = "Wyślij nowy e-mail";
 "com_accountkit_resend_title" = "Przepraszamy. Aby kontynuować, wypróbuj poniższe opcje.";

@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Email ini salah. Silakan coba lagi.";
 "com_accountkit_email_loading_title" = "Mengirimkan email\U2026";
 "com_accountkit_email_login_retry_title" = "Konfirmasi email Anda";
-"com_accountkit_email_login_text" = "Ketuk %1$@ untuk mendapatkan email konfirmasi dari Account Kit yang dipersembahkan oleh Facebook. %2$@ menggunakan ini untuk membantu Anda masuk, tetapi Anda tidak memerlukan akun Facebook. <a href=\"%3$@\">Pelajari selengkapnya.</a>";
+"com_accountkit_email_login_text" = "Ketuk %1$@ untuk mendapatkan konfirmasi email dari Account Kit oleh Facebook untuk membantu Anda menggunakan %2$@. Anda tidak memerlukan akun Facebook untuk menggunakannya. <a href=\"%3$@\">Pelajari bagaimana Facebook menggunakan info Anda</a>.";
 "com_accountkit_email_login_title" = "Masukkan alamat email Anda";
 "com_accountkit_email_not_received" = "Kirim Ulang Email";
 "com_accountkit_email_verify_title" = "Buka email yang kami kirimkan dan konfirmasikan alamat Anda";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Mengirimkan kode Anda\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Nomor";
 "com_accountkit_phone_login_retry_title" = "Konfirmasikan nomor telepon Anda";
-"com_accountkit_phone_login_text" = "Ketuk %1$@ untuk mendapatkan SMS konfirmasi dari Account Kit yang dipersembahkan oleh Facebook. %2$@ menggunakan ini untuk membantu Anda masuk, tetapi Anda tidak memerlukan akun Facebook. Mungkin berlaku biaya pengiriman pesan dan data. <a href=\"%3$@\">Pelajari selengkapnya.</a>";
+"com_accountkit_phone_login_text" = "Ketuk %1$@ untuk mendapatkan konfirmasi SMS dari Account Kit oleh Facebook untuk membantu Anda menggunakan %2$@. Anda tidak memerlukan akun Facebook untuk menggunakannya. Mungkin berlaku biaya pengiriman pesan dan data. <a href=\"%3$@\">Pelajari bagaimana Facebook menggunakan info Anda</a>.";
 "com_accountkit_phone_login_title" = "Masukkan nomor telepon Anda";
 "com_accountkit_resend_email_text" = "Kirim Email Baru";
 "com_accountkit_resend_title" = "Kami mohon maaf. Coba opsi ini untuk melanjutkan.";

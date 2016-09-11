@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "ఈ ఇమెయిల్ తప్పు. దయచేసి మళ్లీ ప్రయత్నించండి.";
 "com_accountkit_email_loading_title" = "ఇమెయిల్ పంపుతోంది\U2026";
 "com_accountkit_email_login_retry_title" = "మీ ఇమెయిల్‌ను నిర్ధారించండి";
-"com_accountkit_email_login_text" = "Facebook ద్వారా Account Kit నుండి నిర్ధారణ ఇమెయిల్‌ను పొందడానికి %1$@ నొక్కండి. సైన్ ఇన్ చేయడంలో మీకు సహాయం చేయడానికి %2$@ దీన్ని ఉపయోగిస్తుంది, కానీ మీకు Facebook ఖాతా అవసరం లేదు. <a href=\"%3$@\">మరింత తెలుసుకోండి.</a>";
+"com_accountkit_email_login_text" = "%2$@ని ఉపయోగించడంలో మీకు సహాయపడటం కోసం Facebook ద్వారా Account Kit నుండి ఇమెయిల్ నిర్ధారణను పొందడానికి %1$@ని నొక్కండి. దీనిని ఉపయోగించడానికి మీకు Facebook ఖాతా ఉండాల్సిన అవసరం లేదు. <a href=\"%3$@\">Facebook మీ సమాచారాన్ని ఎలా ఉపయోగిస్తుందో తెలుసుకోండి</a>.";
 "com_accountkit_email_login_title" = "మీ ఇమెయిల్ చిరునామాను నమోదు చేయండి";
 "com_accountkit_email_not_received" = "ఇమెయిల్‌ను మళ్లీ పంపు";
 "com_accountkit_email_verify_title" = "మేము పంపిన ఇమెయిల్‌ను తెరిచి, మీ చిరునామాను నిర్ధారించండి";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "మీ కోడ్‌ను పంపుతోంది\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "నంబర్";
 "com_accountkit_phone_login_retry_title" = "మీ ఫోన్ నంబర్‌ను నిర్ధారించండి";
-"com_accountkit_phone_login_text" = "Facebook ద్వారా Account Kit నుండి నిర్ధారణ SMS పొందడానికి %1$@ నొక్కండి. సైన్ ఇన్ చేయడంలో మీకు సహాయం చేయడానికి %2$@ దీన్ని ఉపయోగిస్తుంది, కానీ మీకు Facebook ఖాతా అవసరం లేదు. సందేశ మరియు డేటా ఛార్జీలు వర్తించవచ్చు. <a href=\"%3$@\">మరింత తెలుసుకోండి.</a>";
+"com_accountkit_phone_login_text" = "%2$@ని ఉపయోగించడంలో మీకు సహాయపడటం కోసం Facebook ద్వారా Account Kit నుండి SMS నిర్ధారణను పొందడానికి %1$@ని నొక్కండి. దీనిని ఉపయోగించడానికి మీకు Facebook ఖాతా ఉండాల్సిన అవసరం లేదు. సందేశ మరియు డేటా ఛార్జీలు వర్తించవచ్చు. <a href=\"%3$@\">Facebook మీ సమాచారాన్ని ఎలా ఉపయోగిస్తుందో తెలుసుకోండి</a>.";
 "com_accountkit_phone_login_title" = "మీ ఫోన్ నంబర్‌ను నమోదు చేయండి";
 "com_accountkit_resend_email_text" = "కొత్త ఇమెయిల్ పంపు";
 "com_accountkit_resend_title" = "మమ్మల్ని క్షమించండి. కొనసాగించడానికి ఈ ఎంపికలను ప్రయత్నించండి.";

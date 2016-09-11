@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "കൊടുത്തിരിക്കുന്ന ഇമെയിൽ തെറ്റാണ് വീണ്ടും ശ്രമിക്കുക.";
 "com_accountkit_email_loading_title" = "ഇമെയിൽ അയയ്ക്കുന്നു\U2026";
 "com_accountkit_email_login_retry_title" = "നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിക്കുക";
-"com_accountkit_email_login_text" = "Facebook നൽകുന്ന Account Kit-ൽ നിന്ന് ഇമെയിൽ സ്ഥിരീകരണം ലഭിക്കുന്നതിന് %1$@ ടാപ്പുചെയ്യുക. നിങ്ങളെ സൈൻ ഇൻ ചെയ്യാൻ സഹായിക്കുന്നതിന് %2$@ ഇത് ഉപയോഗിക്കുന്നു, എന്നാൽ നിങ്ങൾക്കൊരു Facebook അക്കൗണ്ട് ആവശ്യമില്ല. <a href=\"%3$@\">കൂടുതൽ അറിയുക.</a>";
+"com_accountkit_email_login_text" = "%2$@ ഉപയോഗിക്കാൻ സഹായിക്കുന്നതിനായി Facebook-ലെ Account Kit-ൽ നിന്നും ഇമെയിൽ സ്ഥിരീകരണം നേടുന്നതിന് %1$@ ടാപ്പുചെയ്യുക. അത് ഉപയോഗിക്കുന്നതിന് നിങ്ങൾക്ക് Facebook അക്കൗണ്ടിന്റെ ആവശ്യമില്ല. <a href=\"%3$@\">നിങ്ങളുടെ വിവരം Facebook എങ്ങനെ ഉപയോഗിക്കുമെന്നതിനെക്കുറിച്ച് അറിയുക</a>.";
 "com_accountkit_email_login_title" = "നിങ്ങളുടെ ഇമെയിൽ വിലാസം നൽകുക";
 "com_accountkit_email_not_received" = "ഇമെയിൽ വീണ്ടും അയയ്‌ക്കുക";
 "com_accountkit_email_verify_title" = "ഞങ്ങൾ അയച്ച ഇമെയിൽ തുറന്ന് നിങ്ങളുടെ വിലാസം സ്ഥിരീകരിക്കുക";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "നിങ്ങളുടെ കോഡ് അയയ്‌ക്കുന്നു\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "നമ്പർ";
 "com_accountkit_phone_login_retry_title" = "നിങ്ങളുടെ ഫോൺ നമ്പർ സ്ഥിരീകരിക്കുക";
-"com_accountkit_phone_login_text" = "Facebook നൽകുന്ന Account Kit-ൽ നിന്ന് SMS സ്ഥിരീകരണം ലഭിക്കുന്നതിന് %1$@ ടാപ്പുചെയ്യുക. നിങ്ങളെ സൈൻ ഇൻ ചെയ്യാൻ സഹായിക്കുന്നതിന് %2$@ ഇത് ഉപയോഗിക്കുന്നു, എന്നാൽ നിങ്ങൾക്കൊരു Facebook അക്കൗണ്ട് ആവശ്യമില്ല. സന്ദേശ, ഡാറ്റ നിരക്കുകൾ ബാധകമായേക്കാം. <a href=\"%3$@\">കൂടുതൽ അറിയുക.</a>";
+"com_accountkit_phone_login_text" = "%2$@ ഉപയോഗിക്കാൻ സഹായിക്കുന്നതിനായി Facebook-ലെ Account Kit-ൽ നിന്നും SMS സ്ഥിരീകരണം നേടുന്നതിന് %1$@ ടാപ്പുചെയ്യുക. അത് ഉപയോഗിക്കുന്നതിന് നിങ്ങൾക്ക് Facebook അക്കൗണ്ടിന്റെ ആവശ്യമില്ല. സന്ദേശ, ഡാറ്റ നിരക്കുകൾ ബാധകമായേക്കാം. <a href=\"%3$@\">നിങ്ങളുടെ വിവരം Facebook എങ്ങനെ ഉപയോഗിക്കുമെന്നതിനെക്കുറിച്ച് അറിയുക</a>.";
 "com_accountkit_phone_login_title" = "നിങ്ങളുടെ ഫോൺ നമ്പർ നൽകുക";
 "com_accountkit_resend_email_text" = "പുതിയ ഇമെയിൽ അയയ്‌ക്കുക";
 "com_accountkit_resend_title" = "ക്ഷമിക്കണം. തുടരുന്നതിന് ഈ ഓപ്‌ഷനുകൾ പരീക്ഷിക്കുക.";

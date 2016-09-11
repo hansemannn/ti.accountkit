@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "올바른 이메일이 아닙니다. 다시 시도해보세요.";
 "com_accountkit_email_loading_title" = "이메일 보내는 중\U2026";
 "com_accountkit_email_login_retry_title" = "이메일을 확인하세요";
-"com_accountkit_email_login_text" = "%1$@ 버튼을 눌러 Facebook Account Kit에서 보내는 확인 이메일을 받으세요. %2$@ 앱에서 이 기능을 사용하면 Facebook 계정 없이도 앱에 로그인할 수 있습니다. <a href=\"%3$@\">더 알아보기.</a>";
+"com_accountkit_email_login_text" = "%1$@ 버튼을 누르면 Facebook Account Kit에서 이메일 인증을 받을 수 있습니다. 인증을 받으면 Facebook 계정 정보 없이도 %2$@ 앱을 이용할 수 있습니다. <a href=\"%3$@\">Facebook에서 사용자 정보를 이용하는 방식에 대해 알아보기</a>.";
 "com_accountkit_email_login_title" = "이메일 주소 입력";
 "com_accountkit_email_not_received" = "이메일 다시 보내기";
 "com_accountkit_email_verify_title" = "Facebook에서 보낸 이메일을 열고 주소를 확인하세요";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "코드를 전송하는 중\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "번호";
 "com_accountkit_phone_login_retry_title" = "휴대폰 번호 확인";
-"com_accountkit_phone_login_text" = "%1$@ 버튼을 눌러 Facebook Account Kit에서 보내는 확인 이메일을 받으세요. %2$@ 앱에서 이 기능을 사용하면 Facebook 계정 없이도 앱에 로그인할 수 있습니다. 메시지 및 데이터 요금이 부과될 수 있습니다. <a href=\"%3$@\">더 알아보기.</a>";
+"com_accountkit_phone_login_text" = "%1$@ 버튼을 누르면 Facebook Account Kit에서 SMS 인증을 받을 수 있습니다. 인증을 받으면 Facebook 계정 정보 없이도 %2$@ 앱을 이용할 수 있습니다. 메시지 및 데이터 요금이 부과될 수 있습니다. <a href=\"%3$@\">Facebook에서 사용자 정보를 이용하는 방식에 대해 알아보기</a>.";
 "com_accountkit_phone_login_title" = "휴대폰 번호 입력";
 "com_accountkit_resend_email_text" = "새 이메일 보내기";
 "com_accountkit_resend_title" = "죄송합니다. 계속하려면 다른 방법으로 코드를 요청하세요.";

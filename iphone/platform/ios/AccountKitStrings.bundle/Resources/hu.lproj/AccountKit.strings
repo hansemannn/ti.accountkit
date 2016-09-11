@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Ez az e-mail cím helytelen. Kérjük, próbáld meg újra.";
 "com_accountkit_email_loading_title" = "E-mail küldése\U2026";
 "com_accountkit_email_login_retry_title" = "Az e-mail cím megerősítése";
-"com_accountkit_email_login_text" = "Koppints a %1$@ gombra, és a Facebook technológiájával működő Account Kit megerősítő e-mailt küld. A(z) %2$@ ennek használatával könnyíti meg a bejelentkezést, de nincs szükséged hozzá Facebook-fiókra. <a href=\"%3$@\">További tudnivalók.</a>";
+"com_accountkit_email_login_text" = "A(z) %1$@ gombra koppintva a Facebook Account Kit e-mailben küldött értesítéssel könnyítheti meg a(z) %2$@ használatát. A használathoz nincs szükséged Facebook-fiókra. <a href=\"%3$@\">Tájékoztatás arról, hogyan használja a Facebook az adataidat</a>.";
 "com_accountkit_email_login_title" = "Add meg az e-mail címedet.";
 "com_accountkit_email_not_received" = "E-mail újraküldése";
 "com_accountkit_email_verify_title" = "Nyisd meg az általunk küldött e-mailt, és erősítsd meg a címedet.";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "A kód elküldése folyamatban van\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Szám";
 "com_accountkit_phone_login_retry_title" = "Erősítsd meg a telefonszámodat.";
-"com_accountkit_phone_login_text" = "Koppints a %1$@ gombra, és a Facebook technológiájával működő Account Kit megerősítő SMS-t küld. A(z) %2$@ ennek használatával könnyíti meg a bejelentkezést, de nincs szükséged hozzá Facebook-fiókra. Ez üzenet- és adatforgalmi szolgáltatási díjakkal járhat. <a href=\"%3$@\">További tudnivalók.</a>";
+"com_accountkit_phone_login_text" = "A(z) %1$@ gombra koppintva a Facebook Account Kit SMS-ben küldött értesítéssel könnyítheti meg a(z) %2$@ használatát. A használathoz nincs szükséged Facebook-fiókra. Ez üzenet- és adatforgalmi szolgáltatási díjakkal járhat. <a href=\"%3$@\">Tájékoztatás arról, hogyan használja a Facebook az adataidat</a>.";
 "com_accountkit_phone_login_title" = "Add meg a telefonszámodat.";
 "com_accountkit_resend_email_text" = "Új e-mail küldése";
 "com_accountkit_resend_title" = "Elnézést kérünk. A folytatáshoz próbálkozz ezekkel a lehetőségekkel.";

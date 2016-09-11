@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Bu e-posta hatalı. Lütfen tekrar dene.";
 "com_accountkit_email_loading_title" = "E-posta gönderiliyor\U2026";
 "com_accountkit_email_login_retry_title" = "E-posta adresinizi onaylayın";
-"com_accountkit_email_login_text" = "Facebook'un desteğiyle Account Kit'ten onay e-postası almak için %1$@ düğmesine dokunun. %2$@, giriş yapmanıza yardımcı olmak için bundan yararlanmaktadır, ancak Facebook hesabı zorunlu değildir. <a href=\"%3$@\">Daha fazla bilgi alın.</a>";
+"com_accountkit_email_login_text" = "%2$@ kullanmaya başlamak isterseniz, Facebook'un sunduğu Account Kit'ten e-posta onayı almak için %1$@ düğmesine dokunun. Bunu kullanabilmek için bir Facebook hesabınızın olması gerekmez. <a href=\"%3$@\">Facebook'un bilgilerinizi nasıl kullandığını öğrenin</a>.";
 "com_accountkit_email_login_title" = "E-posta adresini gir";
 "com_accountkit_email_not_received" = "E-postayı Tekrar Gönder";
 "com_accountkit_email_verify_title" = "Gönderdiğimiz e-postayı aç ve adresini onayla";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Kodun gönderiliyor\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Numara";
 "com_accountkit_phone_login_retry_title" = "Telefon numaranı onayla";
-"com_accountkit_phone_login_text" = "Facebook'un desteğiyle Account Kit'ten SMS onayı almak için %1$@ düğmesine dokunun. %2$@, giriş yapmanıza yardımcı olmak için bundan yararlanmaktadır, ancak Facebook hesabı zorunlu değildir. Mesaj ve veri ücretleri geçerli olabilir. <a href=\"%3$@\">Daha fazla bilgi alın.</a>";
+"com_accountkit_phone_login_text" = "%2$@ kullanmaya başlamak isterseniz, Facebook'un sunduğu Account Kit'ten SMS onayı almak için %1$@ düğmesine dokunun. Bunu kullanabilmek için bir Facebook hesabınızın olması gerekmez. Mesaj ve veri ücretleri geçerli olabilir. <a href=\"%3$@\">Facebook'un bilgilerinizi nasıl kullandığını öğrenin</a>.";
 "com_accountkit_phone_login_title" = "Telefon numaranı gir";
 "com_accountkit_resend_email_text" = "Yeni E-posta Gönder";
 "com_accountkit_resend_title" = "Üzgünüz. Devam etmek için bu seçenekleri deneyin.";

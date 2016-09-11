@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "メールに誤りがあります。もう一度お試しください。";
 "com_accountkit_email_loading_title" = "メールを送信中\U2026";
 "com_accountkit_email_login_retry_title" = "メールアドレスを確認";
-"com_accountkit_email_login_text" = "%1$@をタップすると、FacebookのAccount Kitから確認メールが送信されます。%2$@にサインインする際にこのメールを使用しますが、Facebookアカウントは不要です。詳しくは<a href=\"%3$@\">こちら</a>をご覧ください。";
+"com_accountkit_email_login_text" = "%1$@をタップして、Account Kit by Facebookからメールアドレスの認証を受け取ると、%2$@の使用に役立ちます。これは、Facebookアカウントがなくても使用できます。あなたの情報がFacebookでどのように使われるかについては、<a href=\"%3$@\">こちら</a>をご覧ください。";
 "com_accountkit_email_login_title" = "メールアドレスを入力";
 "com_accountkit_email_not_received" = "メールを再送信";
 "com_accountkit_email_verify_title" = "Facebookから届いたメールを開き、メールアドレスを確認してください。";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "コードを送信しています\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "電話番号";
 "com_accountkit_phone_login_retry_title" = "電話番号を認証してください";
-"com_accountkit_phone_login_text" = "%1$@をタップすると、FacebookのAccount KitからSMSによる確認メッセージが送信されます。%2$@にサインインする際にこのメッセージを使用しますが、Facebookアカウントは不要です。メッセージとデータの通信料がかかることがあります。詳しくは<a href=\"%3$@\">こちら</a>をご覧ください。";
+"com_accountkit_phone_login_text" = "%1$@をタップして、Account Kit by FacebookからSMSの確認を受け取ると、%2$@の使用に役立ちます。これは、Facebookアカウントがなくても使用できます。メッセージとデータの通信料がかかることがあります。あなたの情報がFacebookでどのように使われるかについては、<a href=\"%3$@\">こちら</a>をご覧ください。";
 "com_accountkit_phone_login_title" = "電話番号を入力してください";
 "com_accountkit_resend_email_text" = "新しいメールを送信";
 "com_accountkit_resend_title" = "申し訳ありません。続行するには、以下の方法を試してください。";

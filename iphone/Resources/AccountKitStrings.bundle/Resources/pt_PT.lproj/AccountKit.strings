@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Este e-mail está incorreto. Tenta novamente.";
 "com_accountkit_email_loading_title" = "A enviar e-mail\U2026";
 "com_accountkit_email_login_retry_title" = "Confirma o teu endereço de e-mail";
-"com_accountkit_email_login_text" = "Toca em %1$@ para receberes um e-mail de confirmação do Account Kit com a tecnologia do Facebook. A app %2$@ utiliza esta funcionalidade para te ajudar a iniciar sessão, mas não precisas de uma conta do Facebook. <a href=\"%3$@\">Sabe mais.</a>";
+"com_accountkit_email_login_text" = "Toca em %1$@ para obteres um e-mail de confirmação do Account Kit do Facebook para te ajudar a utilizar o %2$@. Não precisas de ter uma conta do Facebook para utilizá-lo. <a href=\"%3$@\">Sabe mais sobre a forma como o Facebook utiliza as tuas informações</a>.";
 "com_accountkit_email_login_title" = "Introduz o teu endereço de e-mail";
 "com_accountkit_email_not_received" = "Reenviar e-mail";
 "com_accountkit_email_verify_title" = "Abre o e-mail que enviámos e confirma o teu endereço";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "A enviar o teu código\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Número";
 "com_accountkit_phone_login_retry_title" = "Confirma o teu número de telemóvel";
-"com_accountkit_phone_login_text" = "Toca em %1$@ para receberes uma mensagem SMS de confirmação do Account Kit com a tecnologia do Facebook. A app %2$@ utiliza esta funcionalidade para te ajudar a iniciar sessão, mas não precisas de uma conta do Facebook. Podem aplicar-se tarifas de dados e de mensagens. <a href=\"%3$@\">Sabe mais.</a>";
+"com_accountkit_phone_login_text" = "Toca em %1$@ para obteres uma SMS de confirmação do Account Kit do Facebook para te ajudar a utilizar o %2$@. Não precisas de ter uma conta do Facebook para utilizá-lo. Podem aplicar-se tarifas de dados e de mensagens. <a href=\"%3$@\">Sabe mais sobre a forma como o Facebook utiliza as tuas informações</a>.";
 "com_accountkit_phone_login_title" = "Introduz o teu número de telemóvel";
 "com_accountkit_resend_email_text" = "Enviar Novo E-mail";
 "com_accountkit_resend_title" = "Pedimos desculpa. Experimenta estas opções para continuares.";

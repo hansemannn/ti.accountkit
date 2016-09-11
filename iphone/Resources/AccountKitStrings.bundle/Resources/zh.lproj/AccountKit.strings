@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "电子邮件不正确。请重试。";
 "com_accountkit_email_loading_title" = "正在发送电子邮件\U2026";
 "com_accountkit_email_login_retry_title" = "确认您的邮箱";
-"com_accountkit_email_login_text" = "轻触 %1$@，接收来自 Facebook Account Kit 的确认邮件。%2$@ 利用它帮助您登录，您在这一步不需要 Facebook 帐户。<a href=\"%3$@\">详细了解</a>。";
+"com_accountkit_email_login_text" = "轻触 %1$@ 获取 Facebook Account Kit 的确认电子邮件，以便您在没有 Facebook 帐户的情况下使用 %2$@。<a href=\"%3$@\">了解 Facebook 如何使用您的个人信息</a>。";
 "com_accountkit_email_login_title" = "输入你的电子邮箱";
 "com_accountkit_email_not_received" = "重新发送邮件";
 "com_accountkit_email_verify_title" = "打开我们发送的邮件并确认你的地址";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "发送代码\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "编号";
 "com_accountkit_phone_login_retry_title" = "确认电话号码";
-"com_accountkit_phone_login_text" = "轻触 %1$@，接收来自 Facebook Account Kit 的确认短信。%2$@ 利用它帮助您登录，您在这一步不需要 Facebook 帐户。可能需支付信息费和流量费。<a href=\"%3$@\">详细了解</a>。";
+"com_accountkit_phone_login_text" = "轻触 %1$@ 获取 Facebook Account Kit 的确认短信，以便您在没有 Facebook 帐户的情况下使用 %2$@。可能需支付信息费和流量费。<a href=\"%3$@\">了解 Facebook 如何使用您的个人信息</a>。";
 "com_accountkit_phone_login_title" = "输入电话号码";
 "com_accountkit_resend_email_text" = "发送新邮件";
 "com_accountkit_resend_title" = "很抱歉。请尝试以下方法继续操作。";

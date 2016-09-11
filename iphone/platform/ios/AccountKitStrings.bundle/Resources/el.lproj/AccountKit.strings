@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Αυτό το email δεν είναι σωστό. Προσπαθήστε ξανά.";
 "com_accountkit_email_loading_title" = "Αποστολή email\U2026";
 "com_accountkit_email_login_retry_title" = "Επιβεβαιώστε το email σας";
-"com_accountkit_email_login_text" = "Πατήστε %1$@ για να λάβετε ένα email επιβεβαίωσης από το Account Kit που παρέχεται από το Facebook. Το %2$@ χρησιμοποιεί αυτή τη λειτουργία για να σας βοηθήσει να συνδεθείτε αλλά δεν χρειάζεστε λογαριασμό Facebook. <a href=\"%3$@\">Μάθετε περισσότερα.</a>";
+"com_accountkit_email_login_text" = "Πατήστε %1$@ για να λάβετε μια επιβεβαίωση μέσω email από το Account Kit του Facebook, ώστε να χρησιμοποιήσετε το %2$@. Δεν χρειάζεστε λογαριασμό στο Facebook. <a href=\"%3$@\">Μάθετε πώς χρησιμοποιεί τα στοιχεία σας το Facebook</a>.";
 "com_accountkit_email_login_title" = "Γράψτε τη διεύθυνση email σας";
 "com_accountkit_email_not_received" = "Επανάληψη αποστολής email";
 "com_accountkit_email_verify_title" = "Ανοίξτε το email που σας στείλαμε και επιβεβαιώστε τη διεύθυνσή σας";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Γίνεται αποστολή του κωδικού σας\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Αριθμός";
 "com_accountkit_phone_login_retry_title" = "Επιβεβαιώστε τον αριθμό τηλεφώνου σας";
-"com_accountkit_phone_login_text" = "Πατήστε %1$@ για να λάβετε ένα SMS επιβεβαίωσης από το Account Kit που παρέχεται από το Facebook. Το %2$@ χρησιμοποιεί αυτή τη λειτουργία για να σας βοηθήσει να συνδεθείτε αλλά δεν χρειάζεστε λογαριασμό Facebook. Ίσως ισχύσουν χρεώσεις μηνυμάτων και δεδομένων. <a href=\"%3$@\">Μάθετε περισσότερα.</a>";
+"com_accountkit_phone_login_text" = "Πατήστε %1$@ για να λάβετε μια επιβεβαίωση μέσω SMS από το Account Kit του Facebook, ώστε να χρησιμοποιήσετε το %2$@. Δεν χρειάζεστε λογαριασμό στο Facebook. Ίσως ισχύουν χρεώσεις μηνυμάτων και δεδομένων. <a href=\"%3$@\">Μάθετε πώς χρησιμοποιεί τα στοιχεία σας το Facebook</a>.";
 "com_accountkit_phone_login_title" = "Γράψτε τον αριθμό τηλεφώνου σας";
 "com_accountkit_resend_email_text" = "Αποστολή νέου email";
 "com_accountkit_resend_title" = "Λυπούμαστε. Δοκιμάστε αυτές τις επιλογές για να συνεχίσετε.";

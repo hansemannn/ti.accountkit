@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Dit e-mailadres is onjuist. Probeer het opnieuw.";
 "com_accountkit_email_loading_title" = "E-mail verzenden\U2026";
 "com_accountkit_email_login_retry_title" = "Bevestig je e-mailadres";
-"com_accountkit_email_login_text" = "Tik op %1$@ om een bevestigingsmail te ontvangen van Account Kit mogelijk gemaakt door Facebook. %2$@ gebruikt deze methode om je aan te melden, maar je hebt geen Facebook-account nodig. <a href=\"%3$@\">Meer informatie.</a>";
+"com_accountkit_email_login_text" = "Tik op %1$@ om een e-mailbevestiging te ontvangen van Account Kit van Facebook om je te helpen %2$@ te gebruiken. Je hebt hiervoor geen facebook-account nodig. <a href=\"%3$@\">Meer informatie over hoe Facebook je informatie gebruikt</a>.";
 "com_accountkit_email_login_title" = "Voer je e-mailadres in";
 "com_accountkit_email_not_received" = "E-mail opnieuw verzenden";
 "com_accountkit_email_verify_title" = "Open de e-mail die we hebben gestuurd en bevestig je e-mailadres";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Je code wordt verzenden\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Nummer";
 "com_accountkit_phone_login_retry_title" = "Bevestig je telefoonnummer";
-"com_accountkit_phone_login_text" = "Tik op %1$@ om een sms-bevestiging te ontvangen van Account Kit mogelijk gemaakt door Facebook. %2$@ gebruikt deze methode om je aan te melden, maar je hebt geen Facebook-account nodig. Mogelijk zijn bericht- en datatarieven van toepassing. <a href=\"%3$@\">Meer informatie.</a>";
+"com_accountkit_phone_login_text" = "Tik op %1$@ om een sms-bevestiging te ontvangen van Account Kit van Facebook om je te helpen %2$@ te gebruiken. Je hebt hiervoor geen facebook-account nodig. Mogelijk zijn bericht- en datatarieven van toepassing. <a href=\"%3$@\">Meer informatie over hoe Facebook je informatie gebruikt</a>.";
 "com_accountkit_phone_login_title" = "Voer je telefoonnummer in";
 "com_accountkit_resend_email_text" = "Nieuwe e-mail sturen";
 "com_accountkit_resend_title" = "Helaas. Probeer deze opties om door te gaan.";

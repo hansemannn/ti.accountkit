@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "عنوان البريد الإلكتروني غير صحيح. يرجى المحاولة مرة أخرى.";
 "com_accountkit_email_loading_title" = "جارٍ إرسال بريد إلكتروني\U2026";
 "com_accountkit_email_login_retry_title" = "قم بتأكيد بريدك الإلكتروني";
-"com_accountkit_email_login_text" = "اضغط على %1$@ للحصول على رسالة بريد إلكتروني للتأكيد من Account Kit من Facebook. يستخدم %2$@ هذا لمساعدتك على التسجيل، لكن ليس من الضروري أن يكون لديك حساب على فيسبوك. <a href=\"%3$@\">تعرف على المزيد.</a>";
+"com_accountkit_email_login_text" = "اضغط على %1$@ للحصول على رسالة تأكيد عبر البريد الإلكتروني من Account Kit by Facebook لمساعدتك على استخدام %2$@. لا يتطلب الأمر وجود حساب فيسبوك لاستخدامه. <a href=\"%3$@\">تعرف على كيفية استخدام فيسبوك لمعلوماتك</a>.";
 "com_accountkit_email_login_title" = "أدخل عنوان بريدك الإلكتروني";
 "com_accountkit_email_not_received" = "إعادة إرسال البريد الإلكتروني";
 "com_accountkit_email_verify_title" = "افتح البريد الإلكتروني الذي تم إرساله وقم بتأكيد عنوانك";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "جارٍ إرسال الرمز\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "الرقم";
 "com_accountkit_phone_login_retry_title" = "تأكيد رقم هاتفك";
-"com_accountkit_phone_login_text" = "اضغط على %1$@ للحصول على تأكيد عبر رسالة SMS من Account Kit من Facebook. يستخدم %2$@ هذا لمساعدتك على التسجيل، لكن ليس من الضروري أن يكون لديك حساب على فيسبوك. يتم تطبيق أسعار الرسائل وبيانات الاتصال. <a href=\"%3$@\">تعرف على المزيد.</a>";
+"com_accountkit_phone_login_text" = "اضغط على %1$@ للحصول على رسالة تأكيد عبر SMS من Account Kit by Facebook لمساعدتك على استخدام %2$@. لا يتطلب الأمر وجود حساب فيسبوك لاستخدامه. يتم تطبيق أسعار الرسائل وبيانات الاتصال. <a href=\"%3$@\">تعرف على كيفية استخدام فيسبوك لمعلوماتك</a>.";
 "com_accountkit_phone_login_title" = "أدخل رقم هاتفك";
 "com_accountkit_resend_email_text" = "إرسال بريد إلكتروني جديد";
 "com_accountkit_resend_title" = "نأسف لذلك. جرّب هذه الخيارات للمتابعة.";

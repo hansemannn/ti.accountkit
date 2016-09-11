@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Tento e-mail není správný. Zkuste to znovu.";
 "com_accountkit_email_loading_title" = "Odesílání e-mailu\U2026";
 "com_accountkit_email_login_retry_title" = "Potvrdit e-mail";
-"com_accountkit_email_login_text" = "Klepněte na %1$@ a dostanete ze služby Account Kit založené na technologii Facebooku potvrzovací e-mail. Služba %2$@ tuto možnost využívá, abyste se mohli přihlásit, vy ale účet na Facebooku nepotřebujete. <a href=\"%3$@\">Další informace.</a>";
+"com_accountkit_email_login_text" = "Po klepnutí na %1$@ vám ze služby Account Kit by Facebook přijde potvrzovací e-mail, který vám usnadní používání aplikace %2$@. Tuto službu můžete používat, i když nemáte Facebook účet. <a href=\"%3$@\">Přečtěte si, jak Facebook používá vaše údaje</a>.";
 "com_accountkit_email_login_title" = "Zadejte e-mailovou adresu";
 "com_accountkit_email_not_received" = "Poslat e-mail znovu";
 "com_accountkit_email_verify_title" = "Otevřete e-mail, který jsme vám poslali, a svoji adresu potvrďte";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Posílání kódu\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Číslo";
 "com_accountkit_phone_login_retry_title" = "Potvrďte telefonní číslo";
-"com_accountkit_phone_login_text" = "Klepněte na %1$@ a dostanete ze služby Account Kit založené na technologii Facebooku potvrzovací SMS. Služba %2$@ tuto možnost využívá, abyste se mohli přihlásit, vy ale účet na Facebooku nepotřebujete. Zprávy a data jsou zpoplatněna podle příslušného tarifu. <a href=\"%3$@\">Další informace.</a>";
+"com_accountkit_phone_login_text" = "Po klepnutí na %1$@ vám ze služby Account Kit by Facebook přijde potvrzovací SMS, která vám usnadní používání aplikace %2$@. Tuto službu můžete používat, i když nemáte Facebook účet. Zprávy a data můžou být zpoplatněna podle příslušného tarifu. <a href=\"%3$@\">Přečtěte si, jak Facebook používá vaše údaje</a>.";
 "com_accountkit_phone_login_title" = "Zadejte telefonní číslo";
 "com_accountkit_resend_email_text" = "Poslat nový e-mail";
 "com_accountkit_resend_title" = "Je nám líto. Zkuste tyto možnosti a pokračujte.";

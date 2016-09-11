@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Diese E-Mail-Adresse ist falsch. Versuche es erneut.";
 "com_accountkit_email_loading_title" = "E-Mail wird gesendet \U2026";
 "com_accountkit_email_login_retry_title" = "Bestätige deine E-Mail-Adresse";
-"com_accountkit_email_login_text" = "Tippe auf „%1$@“, um eine Bestätigungs-E-Mail von Account Kit im Auftrag von Facebook zu erhalten. %2$@ verwendet diese Funktion, um dich bei der Anmeldung zu unterstützen, du benötigst jedoch kein Facebook-Konto. <a href=\"%3$@\">Mehr dazu.</a>";
+"com_accountkit_email_login_text" = "Tippe %1$@ ein, um eine Bestätigungs-E-Mail von Account Kit von Facebook zu erhalten, für Hilfe verwendest du %2$@. Du benötigst kein Facebook-Konto, um es zu nutzen. <a href=\"%3$@\">Erfahre, wie Facebook deine Informationen verwendet</a>.";
 "com_accountkit_email_login_title" = "Gib deine E-Mail-Adresse ein";
 "com_accountkit_email_not_received" = "E-Mail erneut senden";
 "com_accountkit_email_verify_title" = "Öffne die E-Mail, die wir dir geschickt haben, und bestätige deine Adresse";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Dein Code wird gesendet\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Nummer";
 "com_accountkit_phone_login_retry_title" = "Bestätige deine Telefonnummer";
-"com_accountkit_phone_login_text" = "Tippe auf „%1$@“, um eine Bestätigungs-SMS von Account Kit im Auftrag von Facebook zu erhalten. %2$@ verwendet diese Funktion, um dich bei der Anmeldung zu unterstützen, du benötigst jedoch kein Facebook-Konto. Möglicherweise fallen Gebühren für SMS und Datenübertragung an. <a href=\"%3$@\">Mehr dazu.</a>";
+"com_accountkit_phone_login_text" = "Tippe %1$@ ein, um eine Bestätigungs-SMS vom Account Kit von Facebook zu erhalten, für Hilfe verwendest du %2$@. Du benötigst kein Facebook-Konto, um es zu nutzen. Möglicherweise fallen Gebühren für SMS und die Datenübertragung an. <a href=\"%3$@\">Erfahre, wie Facebook deine Informationen verwendet</a>.";
 "com_accountkit_phone_login_title" = "Gib deine Telefonnummer an";
 "com_accountkit_resend_email_text" = "Neue E-Mail versenden";
 "com_accountkit_resend_title" = "Es tut uns leid. Versuche, mithilfe dieser Optionen fortzufahren.";

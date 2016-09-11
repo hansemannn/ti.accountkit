@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Cette adresse e-mail est incorrecte. Veuillez réessayer.";
 "com_accountkit_email_loading_title" = "Envoi de l'e-mail\U2026";
 "com_accountkit_email_login_retry_title" = "Confirmez votre adresse e-mail";
-"com_accountkit_email_login_text" = "Appuyez sur %1$@ pour recevoir un e-mail de confirmation de la part de Account Kit par Facebook. %2$@ utilise ce système pour vous aider à vous connecter, mais vous n’avez pas besoin d’un compte Facebook. <a href=\"%3$@\">En savoir plus.</a>";
+"com_accountkit_email_login_text" = "Appuyez sur %1$@ pour recevoir un code de confirmation par e-mail de Account Kit par Facebook, qui, une fois saisi, vous permettra d’utiliser %2$@. Vous n’avez pas besoin d’un compte Facebook pour l’utiliser. <a href=\"%3$@\">Découvrez comment Facebook utilise vos informations</a>.";
 "com_accountkit_email_login_title" = "Saisissez votre adresse e-mail";
 "com_accountkit_email_not_received" = "Renvoyer l'e-mail";
 "com_accountkit_email_verify_title" = "Ouvrez l'e-mail que nous avons envoyé et confirmez votre adresse";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Envoi de votre code en cours\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Numéro";
 "com_accountkit_phone_login_retry_title" = "Confirmez votre numéro de téléphone";
-"com_accountkit_phone_login_text" = "Appuyez sur %1$@ pour recevoir une confirmation par SMS de la part de Account Kit par Facebook. %2$@ utilise ce système pour vous aider à vous connecter, mais vous n’avez pas besoin d’un compte Facebook. Des frais de messagerie et de données peuvent s’appliquer. <a href=\"%3$@\">En savoir plus.</a>";
+"com_accountkit_phone_login_text" = "Appuyez sur %1$@ pour recevoir un code de confirmation par texto de Account Kit par Facebook, qui, une fois saisi, vous permettra d’utiliser %2$@. Vous n’avez pas besoin d’un compte Facebook pour l’utiliser. Des frais de messagerie et de données peuvent s’appliquer. <a href=\"%3$@\">Découvrez comment Facebook utilise vos informations</a>.";
 "com_accountkit_phone_login_title" = "Saisissez votre numéro de téléphone";
 "com_accountkit_resend_email_text" = "Envoyer un e-mail";
 "com_accountkit_resend_title" = "Nous sommes désolés ! Essayez les options ci-dessous pour continuer.";

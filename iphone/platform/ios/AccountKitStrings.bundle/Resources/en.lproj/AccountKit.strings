@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "This email is incorrect. Please try again.";
 "com_accountkit_email_loading_title" = "Sending email\U2026";
 "com_accountkit_email_login_retry_title" = "Confirm your email";
-"com_accountkit_email_login_text" = "Tap %1$@ to get a confirmation email from Account Kit powered by Facebook. %2$@ uses this to help you sign in, but you don't need a Facebook account. <a href=\"%3$@\">Learn more.</a>";
+"com_accountkit_email_login_text" = "Tap %1$@ to get an email confirmation from Account Kit by Facebook to help you use %2$@. You don't need a Facebook account to use it. <a href=\"%3$@\">Learn how Facebook uses your info</a>.";
 "com_accountkit_email_login_title" = "Enter your email address";
 "com_accountkit_email_not_received" = "Resend Email";
 "com_accountkit_email_verify_title" = "Open the email and confirm your address";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Sending your code\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Number";
 "com_accountkit_phone_login_retry_title" = "Confirm your phone number";
-"com_accountkit_phone_login_text" = "Tap %1$@ to get an SMS confirmation from Account Kit powered by Facebook. %2$@ uses this to help you sign in, but you don't need a Facebook account. Message and data rates may apply. <a href=\"%3$@\">Learn more.</a>";
+"com_accountkit_phone_login_text" = "Tap %1$@ to get an SMS confirmation from Account Kit by Facebook to help you use %2$@. You don't need a Facebook account to use it. Message and data rates may apply. <a href=\"%3$@\">Learn how Facebook uses your info</a>.";
 "com_accountkit_phone_login_title" = "Enter your phone number";
 "com_accountkit_resend_email_text" = "Send New Email";
 "com_accountkit_resend_title" = "We're sorry. Try these options to continue.";

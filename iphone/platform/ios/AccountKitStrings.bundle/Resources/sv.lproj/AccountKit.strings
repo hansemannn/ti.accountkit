@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Den här e-postadressen är fel. Försök igen.";
 "com_accountkit_email_loading_title" = "Skickar e-post \U2026";
 "com_accountkit_email_login_retry_title" = "Bekräfta e-postadressen";
-"com_accountkit_email_login_text" = "Tryck på %1$@ och få ett bekräftelsemeddelande via e-post av Account Kit från Facebook. %2$@ använder detta för att hjälpa dig logga in, men du behöver inget Facebook-konto. <a href=\"%3$@\">Läs mer.</a>";
+"com_accountkit_email_login_text" = "Tryck på %1$@ för att få en e-postbekräftelse från Account Kit från Facebook som hjälper dig att använda %2$@. Du behöver inte att ett Facebook-konto för att göra detta. <a href=\"%3$@\">Läs om hur Facebook använder din info</a>.";
 "com_accountkit_email_login_title" = "Ange din e-postadress";
 "com_accountkit_email_not_received" = "Skicka meddelandet igen";
 "com_accountkit_email_verify_title" = "Öppna e-postmeddelandet som vi skickade och bekräfta din adress";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Skickar din kod\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Nummer";
 "com_accountkit_phone_login_retry_title" = "Bekräfta ditt telefonnummer";
-"com_accountkit_phone_login_text" = "Tryck på %1$@ och få en sms-bekräftelse av Account Kit från Facebook. %2$@ använder detta för att hjälpa dig logga in, men du behöver inget Facebook-konto. Meddelande- och dataavgifter kan tillkomma. <a href=\"%3$@\">Läs mer.</a>";
+"com_accountkit_phone_login_text" = "Tryck på %1$@ för att få en sms-bekräftelse från Account Kit från Facebook som hjälper dig att använda %2$@. Du behöver inte att ett Facebook-konto för att göra detta. Meddelande- och dataavgifter kan tillkomma. <a href=\"%3$@\">Läs om hur Facebook använder din info</a>.";
 "com_accountkit_phone_login_title" = "Ange ditt telefonnummer";
 "com_accountkit_resend_email_text" = "Skicka ny e-post";
 "com_accountkit_resend_title" = "Vi ber om ursäkt. Testa de här alternativen om du vill fortsätta.";

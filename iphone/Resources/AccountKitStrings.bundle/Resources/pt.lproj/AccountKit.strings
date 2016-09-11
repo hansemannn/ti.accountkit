@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Este email está incorreto. Tente novamente.";
 "com_accountkit_email_loading_title" = "Enviando email\U2026";
 "com_accountkit_email_login_retry_title" = "Confirme seu email";
-"com_accountkit_email_login_text" = "Toque em %1$@ para receber um email de confirmação do Account Kit desenvolvido pelo Facebook. O aplicativo %2$@ usa esse recurso para ajudar você a se conectar, mas você não precisa de uma conta do Facebook. <a href=\"%3$@\">Saiba mais.</a>";
+"com_accountkit_email_login_text" = "Toque em %1$@ para obter uma confirmação por email do Account Kit do Facebook para ajudar a usar %2$@. Você não precisa de uma conta do Facebook para usá-lo. <a href=\"%3$@\">Saiba como o Facebook usa as suas informações</a>.";
 "com_accountkit_email_login_title" = "Digite o seu endereço de email";
 "com_accountkit_email_not_received" = "Reenviar email";
 "com_accountkit_email_verify_title" = "Abra o email que enviamos e confirme o seu endereço";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Enviando seu código\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Número";
 "com_accountkit_phone_login_retry_title" = "Confirme seu número de telefone";
-"com_accountkit_phone_login_text" = "Toque em %1$@ para receber um SMS de confirmação do Account Kit desenvolvido pelo Facebook. O aplicativo %2$@ usa esse recurso para ajudar você a se conectar, mas você não precisa de uma conta do Facebook. Sujeito a taxas de mensagem e dados. <a href=\"%3$@\">Saiba mais.</a>";
+"com_accountkit_phone_login_text" = "Toque em %1$@ para obter uma confirmação por SMS do Account Kit do Facebook para ajudar a usar %2$@. Você não precisa de uma conta do Facebook para usá-lo. Sujeito a taxas de mensagem e dados. <a href=\"%3$@\">Saiba como o Facebook usa as suas informações</a>.";
 "com_accountkit_phone_login_title" = "Digite seu número de telefone";
 "com_accountkit_resend_email_text" = "Enviar novo email";
 "com_accountkit_resend_title" = "Lamentamos. Experimente estas opções para continuar.";

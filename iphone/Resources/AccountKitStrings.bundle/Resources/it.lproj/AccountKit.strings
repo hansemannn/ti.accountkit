@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "Questo indirizzo e-mail non è corretto. Riprova.";
 "com_accountkit_email_loading_title" = "Invio dell'e-mail\U2026";
 "com_accountkit_email_login_retry_title" = "Conferma il tuo indirizzo e-mail";
-"com_accountkit_email_login_text" = "Tocca %1$@ per ricevere un'e-mail di conferma da Account Kit di Facebook. %2$@ usa questa tecnologia per consentirti di effettuare l'accesso, ma non è necessario avere un account Facebook. <a href=\"%3$@\">Scopri di più</a>.";
+"com_accountkit_email_login_text" = "Tocca %1$@ per ricevere una conferma tramite e-mail da Account Kit di Facebook per usare %2$@. Non ti serve un account Facebook per usarlo. <a href=\"%3$@\">Scopri in che modo Facebook usa le tue informazioni</a>.";
 "com_accountkit_email_login_title" = "Inserisci il tuo indirizzo e-mail";
 "com_accountkit_email_not_received" = "Invia nuovamente e-mail";
 "com_accountkit_email_verify_title" = "Apri l'e-mail che ti abbiamo inviato e conferma il tuo indirizzo";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Invio del codice\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Numero";
 "com_accountkit_phone_login_retry_title" = "Conferma il tuo numero di telefono";
-"com_accountkit_phone_login_text" = "Tocca %1$@ per ricevere un SMS di conferma da Account Kit di Facebook. %2$@ usa questa tecnologia per consentirti di effettuare l'accesso, ma non è necessario avere un account Facebook. Potrebbero essere applicati i costi per l'invio di messaggi e la trasmissione di dati. <a href=\"%3$@\">Scopri di più</a>.";
+"com_accountkit_phone_login_text" = "Tocca %1$@ per ricevere una conferma tramite SMS da Account Kit di Facebook per usare %2$@. Non ti serve un account Facebook per usarlo. Potrebbero essere applicati i costi per l'invio di messaggi e la trasmissione di dati. <a href=\"%3$@\">Scopri in che modo Facebook usa le tue informazioni</a>.";
 "com_accountkit_phone_login_title" = "Inserisci il tuo numero di telefono";
 "com_accountkit_resend_email_text" = "Invia nuova e-mail";
 "com_accountkit_resend_title" = "Spiacenti. Prova queste opzioni per continuare.";

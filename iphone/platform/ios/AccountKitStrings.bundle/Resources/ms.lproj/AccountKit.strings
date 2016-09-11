@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "E-mel ini tidak betul. Sila cuba lagi.";
 "com_accountkit_email_loading_title" = "Menghantar e-mel\U2026";
 "com_accountkit_email_login_retry_title" = "Sahkan e-mel anda";
-"com_accountkit_email_login_text" = "Ketik %1$@ untuk mendapatkan e-mel pengesahan daripada Kit Akaun yang dikuasakan oleh Facebook. %2$@ menggunakan ini untuk membantu anda mendaftar masuk, tetapi anda tidak memerlukan akaun Facebook. <a href=\"%3$@\">Ketahui lebih lanjut.</a>";
+"com_accountkit_email_login_text" = "Ketik %1$@ untuk mendapatkan pengesahan e-mel daripada Kit Akaun oleh Facebook bagi membantu anda menggunakan %2$@. Anda tidak memerlukan akaun Facebook untuk menggunakannya. <a href=\"%3$@\">Ketahui cara Facebook menggunakan maklumat anda</a>.";
 "com_accountkit_email_login_title" = "Masukkan alamat e-mel anda";
 "com_accountkit_email_not_received" = "Hantar Semula E-mel";
 "com_accountkit_email_verify_title" = "Buka e-mel yang kami hantar dan sahkan alamat e-mel anda";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "Menghantar kod anda\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "Nombor";
 "com_accountkit_phone_login_retry_title" = "Sahkan nombor telefon anda";
-"com_accountkit_phone_login_text" = "Ketik %1$@ untuk mendapatkan pengesahan SMS daripada Kit Akaun yang dikuasakan oleh Facebook. %2$@ menggunakan ini untuk membantu anda mendaftar masuk, tetapi anda tidak memerlukan akaun Facebook. Kadar mesej dan data boleh dikenakan. <a href=\"%3$@\">Ketahui lebih lanjut.</a>";
+"com_accountkit_phone_login_text" = "Ketik %1$@ untuk mendapatkan pengesahan SMS daripada Kit Akaun oleh Facebook bagi membantu anda menggunakan %2$@. Anda tidak memerlukan akaun Facebook untuk menggunakannya. Kadar mesej dan data boleh dikenakan. <a href=\"%3$@\">Ketahui cara Facebook menggunakan maklumat anda</a>.";
 "com_accountkit_phone_login_title" = "Masukkan nombor telefon anda";
 "com_accountkit_resend_email_text" = "Hantar E-mel Baharu";
 "com_accountkit_resend_title" = "Kami meminta maaf. Cuba pilihan ini untuk meneruskan.";

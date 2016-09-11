@@ -45,7 +45,7 @@
 "com_accountkit_email_invalid" = "כתובת דוא\"ל זו שגויה. נסה שוב.";
 "com_accountkit_email_loading_title" = "שולח דוא\"ל\U2026";
 "com_accountkit_email_login_retry_title" = "אשר את כתובת הדוא\"ל שלך";
-"com_accountkit_email_login_text" = "הקש על %1$@ כדי לקבל אישור בדוא\"ל מ-Account Kit המופעל באמצעות פייסבוק. %2$@ משתמש באפשרות זו כדי לעזור לך להיכנס, אך אינך זקוק לחשבון פייסבוק. <a href=\"%3$@\">קבל מידע נוסף.</a>";
+"com_accountkit_email_login_text" = "הקש על %1$@ כדי לקבל אישור בדוא\"ל מ-Account Kit של פייסבוק שיעזור לך להשתמש ב-%2$@. אין צורך בחשבון פייסבוק כדי להשתמש בו. <a href=\"%3$@\">למד איך פייסבוק משתמשת בפרטים שלך</a>.";
 "com_accountkit_email_login_title" = "הזן את כתובת הדוא\"ל שלך";
 "com_accountkit_email_not_received" = "שלח שוב דוא\"ל";
 "com_accountkit_email_verify_title" = "פתח את הדוא\"ל ששלחנו ואשר את כתובתך";
@@ -54,7 +54,7 @@
 "com_accountkit_phone_loading_title" = "שולח את הקוד שלך\U2026";
 "com_accountkit_phone_login_phone_number_placeholder" = "מספר";
 "com_accountkit_phone_login_retry_title" = "אשר את מספר הטלפון שלך";
-"com_accountkit_phone_login_text" = "הקש על %1$@ כדי לקבל אישור ב-SMS מ-Account Kit המופעל באמצעות פייסבוק. %2$@ משתמש באפשרות זו כדי לעזור לך להיכנס, אך אינך זקוק לחשבון פייסבוק. ייתכן שתחויב בתשלום לפי תעריפי ההודעות והנתונים. <a href=\"%3$@\">קבל מידע נוסף.</a>";
+"com_accountkit_phone_login_text" = "הקש על %1$@ כדי לקבל אישור ב-SMS מ-Account Kit של פייסבוק שיעזור לך להשתמש ב-%2$@. אין צורך בחשבון פייסבוק כדי להשתמש בו. ייתכן שתחויב בתשלום לפי תעריפי ההודעות והנתונים. <a href=\"%3$@\">למד איך פייסבוק משתמשת בפרטים שלך</a>.";
 "com_accountkit_phone_login_title" = "הזן את מספר הטלפון שלך";
 "com_accountkit_resend_email_text" = "שלח דוא\"ל חדש";
 "com_accountkit_resend_title" = "אנו מצטערים. נסה אפשרויות אלה כדי להמשיך.";
