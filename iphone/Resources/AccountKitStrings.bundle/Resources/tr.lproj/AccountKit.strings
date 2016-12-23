@@ -24,11 +24,12 @@
 "com_accountkit_button_cancel" = "İptal";
 "com_accountkit_button_confirm" = "Onayla";
 "com_accountkit_button_continue" = "Devam";
+"com_accountkit_button_edit" = "DÜZENLE";
 "com_accountkit_button_log_in" = "Giriş Yap";
 "com_accountkit_button_next" = "İleri";
 "com_accountkit_button_ok" = "Tamam";
-"com_accountkit_button_resend" = "Yeni Kod Gönder";
-"com_accountkit_button_resend_sms" = "SMS'i Yeniden Gönder";
+"com_accountkit_button_resend_code_in" = "Kodu %1$@ sonra tekrar gönder";
+"com_accountkit_button_resend_sms" = "Kodu Tekrar Gönder";
 "com_accountkit_button_send" = "Gönder";
 "com_accountkit_button_send_code_in_fb" = "Kodu Facebook'ta Gönder";
 "com_accountkit_button_send_code_in_fb_disclosure" = "Girdiğiniz telefon numarasıyla bağlantılı Facebook hesabına bildirim göndermek için Facebook'ta Kodu Gönder'e dokunun.";
@@ -36,10 +37,11 @@
 "com_accountkit_button_start_over" = "Tekrar Dene";
 "com_accountkit_button_submit" = "Gönder";
 "com_accountkit_check_email" = "E-postanı aç";
+"com_accountkit_code_sent_to" = "Kodu şu numaraya gönderdik\n%1$@";
 "com_accountkit_confirmation_code_agreement" = "Facebook <a href=\"%2$@\">Koşulları</a>, <a href=\"%3$@\">Veri İlkesi</a> ve <a href=\"%4$@\">çerez kullanımını</a> kabul etmek için %1$@ düğmesine dokunun.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy" = "Facebook <a href=\"%2$@\">Koşulları</a>, <a href=\"%3$@\">Veri İlkesi</a> ve <a href=\"%4$@\">çerez kullanımı</a> ile %6$@ <a href=\"%5$@\">Gizlilik İlkesi</a>'ni kabul etmek için %1$@ düğmesine dokunun.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms" = "Facebook <a href=\"%2$@\">Koşulları</a>, <a href=\"%3$@\">Veri İlkesi</a> ve <a href=\"%4$@\">çerez kullanımını</a> ile %7$@ <a href=\"%5$@\">Gizlilik İlkesi</a> ve <a href=\"%6$@\">Hizmet Koşulları</a>'nı kabul etmek için %1$@ düğmesine dokunun.";
-"com_accountkit_confirmation_code_text" = "Kodu Tekrar Gönder";
+"com_accountkit_confirmation_code_text" = "Kodu almadınız mı?";
 "com_accountkit_confirmation_code_title" = "Kodunuzu girin";
 "com_accountkit_country_code_title" = "Ülkeni Seç";
 "com_accountkit_email_invalid" = "Bu e-posta hatalı. Lütfen tekrar dene.";
@@ -56,6 +58,7 @@
 "com_accountkit_phone_login_retry_title" = "Telefon numaranı onayla";
 "com_accountkit_phone_login_text" = "%2$@ kullanmaya başlamak isterseniz, Facebook'un sunduğu Account Kit'ten SMS onayı almak için %1$@ düğmesine dokunun. Bunu kullanabilmek için bir Facebook hesabınızın olması gerekmez. Mesaj ve veri ücretleri geçerli olabilir. <a href=\"%3$@\">Facebook'un bilgilerinizi nasıl kullandığını öğrenin</a>.";
 "com_accountkit_phone_login_title" = "Telefon numaranı gir";
+"com_accountkit_resend_check" = "Lütfen kodu tekrar göndermeden önce numarayı kontrol edin.";
 "com_accountkit_resend_email_text" = "Yeni E-posta Gönder";
 "com_accountkit_resend_title" = "Üzgünüz. Devam etmek için bu seçenekleri deneyin.";
 "com_accountkit_return_title" = "Tekrar %1$@ uygulamasına yönlendiriliyorsunuz\U2026";

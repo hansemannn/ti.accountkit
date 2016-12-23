@@ -24,11 +24,12 @@
 "com_accountkit_button_cancel" = "రద్దు చేయి";
 "com_accountkit_button_confirm" = "నిర్ధారించు";
 "com_accountkit_button_continue" = "కొనసాగించు";
+"com_accountkit_button_edit" = "సవరించండి";
 "com_accountkit_button_log_in" = "లాగిన్ చేయి";
 "com_accountkit_button_next" = "తదుపరి";
 "com_accountkit_button_ok" = "సరే";
-"com_accountkit_button_resend" = "కొత్త కోడ్‌ను పంపు";
-"com_accountkit_button_resend_sms" = "SMSను మళ్లీ పంపు";
+"com_accountkit_button_resend_code_in" = "%1$@లో కోడ్‌ను మళ్లీ పంపు";
+"com_accountkit_button_resend_sms" = "కోడ్‌ను మళ్లీ పంపు";
 "com_accountkit_button_send" = "పంపు";
 "com_accountkit_button_send_code_in_fb" = "కోడ్‌ను Facebookలో పంపండి";
 "com_accountkit_button_send_code_in_fb_disclosure" = "మీరు నమోదు చేసిన ఫోన్ నంబర్‌కు అనుబంధించిన Facebook ఖాతాకు నోటిఫికేషన్ పంపడానికి Facebookలో కోడ్‌ను పంపు నొక్కండి.";
@@ -36,10 +37,11 @@
 "com_accountkit_button_start_over" = "మళ్లీ ప్రయత్నించండి";
 "com_accountkit_button_submit" = "సమర్పించు";
 "com_accountkit_check_email" = "మీ ఇమెయిల్‌ను తెరవండి";
+"com_accountkit_code_sent_to" = "మేము %1$@కి కోడ్‌ను పంపాము";
 "com_accountkit_confirmation_code_agreement" = "Facebook <a href=\"%2$@\">నిబంధనలు</a>, <a href=\"%3$@\">డేటా విధానం</a> మరియు <a href=\"%4$@\">కుక్కీ వినియోగం</a> ఆమోదించడానికి %1$@ నొక్కండి.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy" = "Facebook <a href=\"%2$@\">నిబంధనలు</a>, <a href=\"%3$@\">డేటా విధానం</a>, <a href=\"%4$@\">కుక్కీ వినియోగం</a> మరియు %6$@ <a href=\"%5$@\">గోప్యతా విధానం</a> ఆమోదించడానికి %1$@ నొక్కండి.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms" = "Facebook <a href=\"%2$@\">నిబంధనలు</a>, <a href=\"%3$@\">డేటా విధానం</a>, <a href=\"%4$@\">కుక్కీ వినియోగం</a> మరియు %7$@ <a href=\"%5$@\">గోప్యతా విధానం</a> మరియు <a href=\"%6$@\">సేవా నిబంధనలు</a> ఆమోదించడానికి %1$@  నొక్కండి.";
-"com_accountkit_confirmation_code_text" = "కొత్త కోడ్‌ను పంపు";
+"com_accountkit_confirmation_code_text" = "కోడ్ రాలేదా?";
 "com_accountkit_confirmation_code_title" = "మీ కోడ్‌ను నమోదు చేయండి";
 "com_accountkit_country_code_title" = "మీ దేశాన్ని ఎంచుకోండి";
 "com_accountkit_email_invalid" = "ఈ ఇమెయిల్ తప్పు. దయచేసి మళ్లీ ప్రయత్నించండి.";
@@ -56,6 +58,7 @@
 "com_accountkit_phone_login_retry_title" = "మీ ఫోన్ నంబర్‌ను నిర్ధారించండి";
 "com_accountkit_phone_login_text" = "%2$@ని ఉపయోగించడంలో మీకు సహాయపడటం కోసం Facebook ద్వారా Account Kit నుండి SMS నిర్ధారణను పొందడానికి %1$@ని నొక్కండి. దీనిని ఉపయోగించడానికి మీకు Facebook ఖాతా ఉండాల్సిన అవసరం లేదు. సందేశ మరియు డేటా ఛార్జీలు వర్తించవచ్చు. <a href=\"%3$@\">Facebook మీ సమాచారాన్ని ఎలా ఉపయోగిస్తుందో తెలుసుకోండి</a>.";
 "com_accountkit_phone_login_title" = "మీ ఫోన్ నంబర్‌ను నమోదు చేయండి";
+"com_accountkit_resend_check" = "దయచేసి కోడ్‌ను మళ్లీ పంపడానికి ముందు నంబర్‌ను సరి చూసుకోండి.";
 "com_accountkit_resend_email_text" = "కొత్త ఇమెయిల్ పంపు";
 "com_accountkit_resend_title" = "మమ్మల్ని క్షమించండి. కొనసాగించడానికి ఈ ఎంపికలను ప్రయత్నించండి.";
 "com_accountkit_return_title" = "మిమ్మల్ని తిరిగి %1$@కి మళ్లిస్తోంది\U2026";

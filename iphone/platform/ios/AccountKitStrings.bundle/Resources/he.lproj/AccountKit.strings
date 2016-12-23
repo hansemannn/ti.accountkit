@@ -24,11 +24,12 @@
 "com_accountkit_button_cancel" = "ביטול";
 "com_accountkit_button_confirm" = "אשר";
 "com_accountkit_button_continue" = "המשך";
+"com_accountkit_button_edit" = "ערוך.";
 "com_accountkit_button_log_in" = "התחבר";
 "com_accountkit_button_next" = "הבא";
 "com_accountkit_button_ok" = "אישור";
-"com_accountkit_button_resend" = "שלח מחדש את הקוד";
-"com_accountkit_button_resend_sms" = "שלח SMS שוב";
+"com_accountkit_button_resend_code_in" = "שלח שוב את הקוד ל-%1$@";
+"com_accountkit_button_resend_sms" = "שלח שוב את הקוד";
 "com_accountkit_button_send" = "שלח";
 "com_accountkit_button_send_code_in_fb" = "שלח את הקוד בפייסבוק";
 "com_accountkit_button_send_code_in_fb_disclosure" = "הקש על 'שלח קוד' בפייסבוק כדי לשלוח התראה לחשבון הפייסבוק המקושר למספר הטלפון שהזנת.";
@@ -36,10 +37,11 @@
 "com_accountkit_button_start_over" = "נסה שוב";
 "com_accountkit_button_submit" = "שלח";
 "com_accountkit_check_email" = "פתח את הדוא\"ל";
+"com_accountkit_code_sent_to" = "שלחנו את הקוד אל \n%1$@";
 "com_accountkit_confirmation_code_agreement" = "הקש על %1$@ כדי לקבל את ![CDATA[<a href=\"%2$@\">תנאי השימוש</a>\\&gt;, ![CDATA[<a href=\"%3$@\">מדיניות הנתונים</a>\\&gt; ו![CDATA[<a href=\"%4$@\">השימוש בקבצי Cookie</a>\\&gt; של פייסבוק.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy" = "הקש על %1$@ כדי לקבל את ![CDATA[<a href=\"%2$@\">תנאי השימוש</a>\\&gt;, ![CDATA[<a href=\"%3$@\">מדיניות הנתונים</a>\\&gt; ו![CDATA[<a href=\"%4$@\">השימוש בקבצי Cookie</a>\\&gt; של פייסבוק ואת ![CDATA[<a href=\"%5$@\">מדיניות הפרטיות</a>\\&gt; של %6$@.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms" = "הקש על %1$@ כדי לקבל את ![CDATA[<a href=\"%2$@\">תנאי השימוש</a>\\&gt;, ![CDATA[<a href=\"%3$@\">מדיניות הנתונים</a>\\&gt; ו![CDATA[<a href=\"%4$@\">השימוש בקבצי Cookie</a>\\&gt; של פייסבוק ואת ![CDATA[<a href=\"%6$@\">מדיניות הפרטיות</a>\\&gt; ו![CDATA[<a href=\"%5$@\">תנאי השירות</a>\\&gt; של %7$@.";
-"com_accountkit_confirmation_code_text" = "שלח מחדש את הקוד";
+"com_accountkit_confirmation_code_text" = "לא קיבלת את הקוד?";
 "com_accountkit_confirmation_code_title" = "הזן את הקוד";
 "com_accountkit_country_code_title" = "בחר את המדינה שלך";
 "com_accountkit_email_invalid" = "כתובת דוא\"ל זו שגויה. נסה שוב.";
@@ -56,6 +58,7 @@
 "com_accountkit_phone_login_retry_title" = "אשר את מספר הטלפון שלך";
 "com_accountkit_phone_login_text" = "הקש על %1$@ כדי לקבל אישור ב-SMS מ-Account Kit של פייסבוק שיעזור לך להשתמש ב-%2$@. אין צורך בחשבון פייסבוק כדי להשתמש בו. ייתכן שתחויב בתשלום לפי תעריפי ההודעות והנתונים. <a href=\"%3$@\">למד איך פייסבוק משתמשת בפרטים שלך</a>.";
 "com_accountkit_phone_login_title" = "הזן את מספר הטלפון שלך";
+"com_accountkit_resend_check" = "בדוק את המספר לפני שליחת הקוד שוב.";
 "com_accountkit_resend_email_text" = "שלח דוא\"ל חדש";
 "com_accountkit_resend_title" = "אנו מצטערים. נסה אפשרויות אלה כדי להמשיך.";
 "com_accountkit_return_title" = "מחזירים אותך אל %1$@\U2026";

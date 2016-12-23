@@ -24,11 +24,12 @@
 "com_accountkit_button_cancel" = "रद्द करा";
 "com_accountkit_button_confirm" = "पुष्टी करा";
 "com_accountkit_button_continue" = "सुरू ठेवा";
+"com_accountkit_button_edit" = "संपादित करा";
 "com_accountkit_button_log_in" = "लॉग इन करा";
 "com_accountkit_button_next" = "पुढील";
 "com_accountkit_button_ok" = "ठीक";
-"com_accountkit_button_resend" = "नवीन कोड पाठवा";
-"com_accountkit_button_resend_sms" = "SMS परत पाठवा";
+"com_accountkit_button_resend_code_in" = "%1$@ मध्ये कोड पुन्हा पाठवा";
+"com_accountkit_button_resend_sms" = "कोड पुन्हा पाठवा";
 "com_accountkit_button_send" = "पाठवा";
 "com_accountkit_button_send_code_in_fb" = "Facebook मध्ये कोड पाठवा";
 "com_accountkit_button_send_code_in_fb_disclosure" = "आपण प्रविष्‍ट केलेल्‍या फोन नंबरशी लिंक असलेल्‍या Facebook खात्‍यावर सूचना पाठवण्‍यासाठी Facebook मध्‍ये कोड पाठवा टॅप करा.";
@@ -36,10 +37,11 @@
 "com_accountkit_button_start_over" = "पुन्‍हा प्रयत्‍न करा";
 "com_accountkit_button_submit" = "सादर करा";
 "com_accountkit_check_email" = "आपला ईमेल उघडा";
+"com_accountkit_code_sent_to" = "आम्ही %1$@ वर कोड पाठविला आहे";
 "com_accountkit_confirmation_code_agreement" = "Facebook च्या <a href=\"%2$@\"> अटी</a>,  <a href=\"%3$@\">डेटा धोरण</a> आणि <a href=\"%4$@\">कुकी वापर</a> स्वीकारण्यासाठी %1$@ वर टॅप करा.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy" = "Facebook च्या  <a href=\"%2$@\">अटी</a>, <a href=\"%3$@\">डेटा धोरण</a>, <a href=\"%4$@\">कुकी वापर</a> आणि %6$@ चे <a href=\"%5$@\">गोपनीयता धोरण</a> स्वीकारण्यासाठी %1$@ वर टॅप करा.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms" = "Facebook च्या  <a href=\"%2$@\">अटी</a>,  <a href=\"%3$@\">डेटा धोरण</a>, <a href=\"%4$@\">कुकी वापर</a>, <a href=\"%5$@\">गोपनीयता धोरण</a> स्वीकारण्यासाठी आणि %7$@ च्या <a href=\"%6$@\">सेवेच्या अटीं</a> साठी %1$@ वर टॅप करा.";
-"com_accountkit_confirmation_code_text" = "नवीन कोड पाठवा";
+"com_accountkit_confirmation_code_text" = "कोड प्राप्त झाला नाही?";
 "com_accountkit_confirmation_code_title" = "आपला कोड प्रविष्‍ट करा";
 "com_accountkit_country_code_title" = "आपला देश निवड";
 "com_accountkit_email_invalid" = "हा ईमेल चुकीचा आहे. कृपया पुन्हा प्रयत्न करा.";
@@ -56,6 +58,7 @@
 "com_accountkit_phone_login_retry_title" = "आपल्‍या फोन नंबरची पुष्‍टी करा";
 "com_accountkit_phone_login_text" = "आपल्‍याला %2$@ वापरण्‍यात मदत करण्‍यासाठी Facebook द्वारे असलेल्‍या खाते किटवरून SMS पुष्‍टी मिळवण्‍यासाठी %1$@ टॅप करा. आपल्‍याला हे वापरण्‍यासाठी Facebook खात्‍याची गरज नाही. संदेश आणि डेटा शुल्‍क लागू होण्‍याची शक्‍यता आहे. <a href=\"%3$@\">Facebook आपली माहिती कसे वापरते याविषयी जाणून घ्‍या</a>.";
 "com_accountkit_phone_login_title" = "आपला फोन नंबर प्रविष्‍ट करा";
+"com_accountkit_resend_check" = "कृपया कोड पुन्हा पाठवण्यापुर्वी नंबर तपासा.";
 "com_accountkit_resend_email_text" = "नवीन ईमेल पाठवा";
 "com_accountkit_resend_title" = "आम्‍ही क्षमस्‍व आहोत. पुढे सुरू ठेवण्‍यासाठी हे पर्याय वापरून पहा.";
 "com_accountkit_return_title" = "आपल्‍याला पुन्‍हा %1$@ येथे नेत आहे\U2026";

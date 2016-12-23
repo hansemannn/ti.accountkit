@@ -24,11 +24,12 @@
 "com_accountkit_button_cancel" = "Cancelar";
 "com_accountkit_button_confirm" = "Confirmar";
 "com_accountkit_button_continue" = "Continuar";
+"com_accountkit_button_edit" = "EDITAR";
 "com_accountkit_button_log_in" = "Entrar";
 "com_accountkit_button_next" = "Avançar";
 "com_accountkit_button_ok" = "OK";
-"com_accountkit_button_resend" = "Enviar novo código";
-"com_accountkit_button_resend_sms" = "Reenviar SMS";
+"com_accountkit_button_resend_code_in" = "Reenviar código em %1$@";
+"com_accountkit_button_resend_sms" = "Reenviar código";
 "com_accountkit_button_send" = "Enviar";
 "com_accountkit_button_send_code_in_fb" = "Enviar código no Facebook";
 "com_accountkit_button_send_code_in_fb_disclosure" = "Toque em Enviar código no Facebook para enviar uma notificação para a conta do Facebook vinculada ao número de telefone que você inseriu.";
@@ -36,10 +37,11 @@
 "com_accountkit_button_start_over" = "Tente novamente";
 "com_accountkit_button_submit" = "Enviar";
 "com_accountkit_check_email" = "Abra o seu email";
+"com_accountkit_code_sent_to" = "Enviamos o código para\n%1$@";
 "com_accountkit_confirmation_code_agreement" = "Toque em %1$@ para aceitar os <a href=\"%2$@\">Termos</a>, a <a href=\"%3$@\">Política de Dados</a> e o <a href=\"%4$@\">uso de cookies</a> do Facebook.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy" = "Toque em %1$@ para aceitar os <a href=\"%2$@\">Termos</a>, a <a href=\"%3$@\">Política de Dados</a>, o <a href=\"%4$@\">uso de cookies</a> do Facebook e a <a href=\"%5$@\">Política de Privacidade</a> do %6$@.";
 "com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms" = "Toque em %1$@ para aceitar os <a href=\"%2$@\">Termos</a>, a <a href=\"%3$@\">Política de Dados</a>, o <a href=\"%4$@\">uso de cookies</a> do Facebook e a <a href=\"%5$@\">Política de Privacidade</a> e os <a href=\"%6$@\">Termos de Serviço</a> do %7$@.";
-"com_accountkit_confirmation_code_text" = "Reenviar código";
+"com_accountkit_confirmation_code_text" = "Não recebeu o código?";
 "com_accountkit_confirmation_code_title" = "Insira seu código";
 "com_accountkit_country_code_title" = "Selecione seu país";
 "com_accountkit_email_invalid" = "Este email está incorreto. Tente novamente.";
@@ -56,6 +58,7 @@
 "com_accountkit_phone_login_retry_title" = "Confirme seu número de telefone";
 "com_accountkit_phone_login_text" = "Toque em %1$@ para obter uma confirmação por SMS do Account Kit do Facebook para ajudar a usar %2$@. Você não precisa de uma conta do Facebook para usá-lo. Sujeito a taxas de mensagem e dados. <a href=\"%3$@\">Saiba como o Facebook usa as suas informações</a>.";
 "com_accountkit_phone_login_title" = "Digite seu número de telefone";
+"com_accountkit_resend_check" = "Verifique o número antes de reenviar o código.";
 "com_accountkit_resend_email_text" = "Enviar novo email";
 "com_accountkit_resend_title" = "Lamentamos. Experimente estas opções para continuar.";
 "com_accountkit_return_title" = "Levando você de volta para %1$@\U2026";
