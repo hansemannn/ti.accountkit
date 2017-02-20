@@ -8,6 +8,8 @@ Support for the Facebook AccountKit framework in Titanium Mobile to login using 
 
 ## Usage
 
+Configure your tiapp.xml properly:
+
 ```xml
 <ios>
     <plist>
@@ -29,6 +31,8 @@ Support for the Facebook AccountKit framework in Titanium Mobile to login using 
     </plist>
 </ios>
 ```
+
+Check this example code on using both phone- and email-login: 
 
 ```javascript
 var win = Ti.UI.createWindow({
@@ -65,7 +69,7 @@ btn2.addEventListener('click', function() {
     accountkit.loginWithEmail();
 
     // Optional: You can also pass an email-address to pre-fill the form
-    accountkit.loginWithEmail('john@doe.com');
+    // accountkit.loginWithEmail('john@doe.com');
 });
 
 win.add(btn1,btn2);
