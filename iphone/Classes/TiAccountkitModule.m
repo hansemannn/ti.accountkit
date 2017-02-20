@@ -2,7 +2,7 @@
  * ti.accountkit
  *
  * Created by Hans Knoechel
- * Copyright (c) 2016 Hans Knoechel. All rights reserved.
+ * Copyright (c) 2016-Present Hans Knoechel. All rights reserved.
  */
 
 #import "TiAccountkitModule.h"
@@ -30,15 +30,7 @@
 - (void)startup
 {
 	[super startup];
-	NSLog(@"[INFO] %@ loaded",self);
-}
-
-#pragma mark Cleanup
-
-- (void)dealloc
-{
-    RELEASE_TO_NIL(accountKit);
-	[super dealloc];
+	NSLog(@"[DEBUG] %@ loaded",self);
 }
 
 #pragma mark Public APIs
@@ -60,17 +52,21 @@
     ENSURE_UI_THREAD(loginWithPhone, args);
 
     id phone = [args objectAtIndex:0];
+    id countryCode = [args objectAtIndex:1];
+    
     ENSURE_TYPE_OR_NIL(phone, NSString);
+    ENSURE_TYPE_OR_NIL(countryCode, NSString);
     
-    NSLocale *currentLocale = [NSLocale currentLocale];
-    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
-    
-    AKFPhoneNumber *phoneNumber = [[AKFPhoneNumber alloc] initWithCountryCode:@"DE" phoneNumber:[TiUtils stringValue:phone]];
+    AKFPhoneNumber *phoneNumber = [[AKFPhoneNumber alloc] initWithCountryCode: countryCode ? [countryCode uppercaseString] : nil
+                                                                  phoneNumber: phone ? [TiUtils stringValue:phone] : nil];
     NSString *inputState = [[NSUUID UUID] UUIDString];
-    UIViewController<AKFViewController> *viewController = [accountKit viewControllerForPhoneLoginWithPhoneNumber:nil state:inputState];
+    
+    UIViewController<AKFViewController> *viewController = [accountKit viewControllerForPhoneLoginWithPhoneNumber:phoneNumber
+                                                                                                           state:inputState];
     [viewController setEnableSendToFacebook:YES];
     [viewController setDelegate:self];
-    [[[TiApp app] controller] presentViewController:viewController animated:YES completion:nil];
+
+    [[TiApp app] showModalController:viewController animated:YES];
 }
 
 - (void)loginWithEmail:(id)args
@@ -82,9 +78,12 @@
 
     NSString *prefilledEmail = [TiUtils stringValue:email];
     NSString *inputState = [[NSUUID UUID] UUIDString];
-    UIViewController<AKFViewController> *viewController = [accountKit viewControllerForEmailLoginWithEmail:prefilledEmail state:inputState];
+
+    UIViewController<AKFViewController> *viewController = [accountKit viewControllerForEmailLoginWithEmail:prefilledEmail
+                                                                                                     state:inputState];
     [viewController setDelegate:self];
-    [[[TiApp app] controller] presentViewController:viewController animated:YES completion:nil];
+
+    [[TiApp app] showModalController:viewController animated:YES];
 }
 
 - (void)logout:(id)unused
@@ -120,8 +119,6 @@
             
             KrollEvent * invocationEvent = [[KrollEvent alloc] initWithCallback:callback eventObject:event thisObject:self];
             [[callback context] enqueue:invocationEvent];
-            [invocationEvent release];
-            [event release];
         }];
     }, NO);
 }
@@ -136,12 +133,12 @@
     return [self dictionaryFromAccessToken:[accountKit currentAccessToken]];
 }
 
-- (NSString*)graphVersion
+- (NSString *)graphVersion
 {
     return [AKFAccountKit graphVersionString];
 }
 
-- (NSString*)version
+- (NSString *)version
 {
     return [AKFAccountKit versionString];
 }

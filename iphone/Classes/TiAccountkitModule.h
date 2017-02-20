@@ -2,7 +2,7 @@
  * ti.accountkit
  *
  * Created by Hans Knoechel
- * Copyright (c) 2016 Hans Knoechel. All rights reserved.
+ * Copyright (c) 2016-Present Hans Knoechel. All rights reserved.
  */
 
 #import "TiModule.h"
@@ -75,7 +75,7 @@
  *  @return The Account Kit Graph API version
  *  @since 1.1.0
  */
-- (NSString*)graphVersion;
+- (NSString *)graphVersion;
 
 /**
  *  Returns the version of the Account Kit SDK.
@@ -83,6 +83,6 @@
  *  @return The Account Kit SDK version
  *  @since 1.1.0
  */
-- (NSString*)version;
+- (NSString *)version;
 
 @end

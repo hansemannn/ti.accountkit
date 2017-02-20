@@ -50,18 +50,22 @@ var btn1 = Ti.UI.createButton({
 });
 
 btn1.addEventListener("click", function() {
-    // You can also pass a phone number to pre-fill the form
     accountkit.loginWithPhone();
+
+    // Optional: You can also pass a phone number and country-code to pre-fill the form
+    // accountkit.loginWithPhone('<phone-number>', 'DE');
 });
 
 var btn2 = Ti.UI.createButton({
     top: 80,
-    title: "Login with E-Mail"
+    title: 'Login with E-Mail'
 });
 
-btn2.addEventListener("click", function() {
-    // You can also pass an email address to pre-fill the form
+btn2.addEventListener('click', function() {
     accountkit.loginWithEmail();
+
+    // Optional: You can also pass an email-address to pre-fill the form
+    accountkit.loginWithEmail('john@doe.com');
 });
 
 win.add(btn1,btn2);
