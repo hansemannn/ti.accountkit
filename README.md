@@ -72,7 +72,7 @@ btn2.addEventListener('click', function() {
     // accountkit.loginWithEmail('john@doe.com');
 
     // Use accountkit.logout() to logout and pass an optional callback to
-    // handle the asyncronous logout.
+    // handle the asynchronous logout.
 });
 
 win.add(btn1,btn2);
