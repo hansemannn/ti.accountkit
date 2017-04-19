@@ -86,9 +86,23 @@
     [[TiApp app] showModalController:viewController animated:YES];
 }
 
-- (void)logout:(id)unused
+- (void)logout:(id)value
 {
-   [accountKit logOut];
+    ENSURE_SINGLE_ARG_OR_NIL(value, KrollCallback);
+    
+    if (value == nil) {
+        [accountKit logOut];
+    } else {
+        [accountKit logOut:^(BOOL success, NSError *error) {
+            NSMutableDictionary *event = [NSMutableDictionary dictionaryWithObjectsAndKeys:NUMBOOL(success), @"success", nil];
+            
+            if (error != nil) {
+                [event setObject:[error localizedDescription] forKey:@"error"];
+            }
+            
+            [(KrollCallback *)value call:@[event] thisObject:self];
+        }];
+    }
 }
 
 - (void)requestAccount:(id)args

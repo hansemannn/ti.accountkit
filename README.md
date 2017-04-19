@@ -70,6 +70,9 @@ btn2.addEventListener('click', function() {
 
     // Optional: You can also pass an email-address to pre-fill the form
     // accountkit.loginWithEmail('john@doe.com');
+
+    // Use accountkit.logout() to logout and pass an optional callback to
+    // handle the asyncronous logout.
 });
 
 win.add(btn1,btn2);
