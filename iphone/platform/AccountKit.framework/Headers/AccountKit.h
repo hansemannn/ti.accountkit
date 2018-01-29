@@ -19,7 +19,6 @@
 #import <AccountKit/AKFAccessToken.h>
 #import <AccountKit/AKFAccount.h>
 #import <AccountKit/AKFAccountKit.h>
-#import <AccountKit/AKFAccountPreferences.h>
 #import <AccountKit/AKFButtonType.h>
 #import <AccountKit/AKFConfiguring.h>
 #import <AccountKit/AKFError.h>

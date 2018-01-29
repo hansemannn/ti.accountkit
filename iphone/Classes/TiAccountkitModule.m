@@ -54,11 +54,11 @@
     id phone = [args objectAtIndex:0];
     id countryCode = [args objectAtIndex:1];
     
-    ENSURE_TYPE_OR_NIL(phone, NSString);
-    ENSURE_TYPE_OR_NIL(countryCode, NSString);
+    ENSURE_TYPE(phone, NSString);
+    ENSURE_TYPE(countryCode, NSString);
     
-    AKFPhoneNumber *phoneNumber = [[AKFPhoneNumber alloc] initWithCountryCode: countryCode ? [countryCode uppercaseString] : nil
-                                                                  phoneNumber: phone ? [TiUtils stringValue:phone] : nil];
+    AKFPhoneNumber *phoneNumber = [[AKFPhoneNumber alloc] initWithCountryCode: [countryCode uppercaseString]
+                                                                  phoneNumber: [TiUtils stringValue:phone]];
     NSString *inputState = [[NSUUID UUID] UUIDString];
     
     UIViewController<AKFViewController> *viewController = [accountKit viewControllerForPhoneLoginWithPhoneNumber:phoneNumber

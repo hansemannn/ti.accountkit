@@ -20,7 +20,6 @@
 
 #import <AccountKit/AKFAccessToken.h>
 #import <AccountKit/AKFAccount.h>
-#import <AccountKit/AKFAccountPreferences.h>
 #import <AccountKit/AKFResponseType.h>
 #import <AccountKit/AKFViewController.h>
 
@@ -69,11 +68,6 @@ typedef void (^AKFLogoutHandler)(BOOL success, NSError *_Nullable error);
 NS_DESIGNATED_INITIALIZER;
 
 - (instancetype)init NS_UNAVAILABLE;
-
-/**
-  Returns an instance of account preferences for the current access token.
- */
-- (nullable AKFAccountPreferences *)accountPreferences;
 
 /**
   Cancels the pending login request.
