@@ -1,5 +1,10 @@
 # Ti.AccountKit
 
+## ⚠️ The AccountKit framework has been deprecated by Facebook in September 9, 2019 and will stop workring on March 9, 2020.
+### You can read more [here](https://developers.facebook.com/docs/accountkit/).
+
+
+
 Support for the Facebook AccountKit framework in Titanium Mobile to login using an email or phone number.
 
 > Note: This is the iOS version of Ti.AccountKit. You might want to check [appwert/ti.accountkit](https://github.com/AppWerft/Ti.AccountKit) for the Android equivalent 🚀.
